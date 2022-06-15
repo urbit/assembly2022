@@ -11,14 +11,14 @@ export default function Home() {
         </Head>
         {/* Hero + Nav */}
         <header
-          className="flex items-center flex-col pt-14 space-y-16 pb-64 bg-cover bg-top"
+          className="flex items-center flex-col pt-14 space-y-16 pb-64 bg-cover sm:bg-contain bg-no-repeat bg-center"
           style={{
             backgroundImage:
               "url('https://storage.googleapis.com/media.urbit.org/assembly/assembly-2022-hero.png')",
           }}
         >
           <Nav />
-          <h1 className="text-center pt-32 text-6xl font-semibold uppercase tracking-widest">
+          <h1 className="text-center pt-32 text-6xl font-bold uppercase tracking-widest">
             Assembly
             <br />
             2022
