@@ -35,3 +35,7 @@ a:hover {
 ul li {
   @apply pl-2
 }
+
+#team a {
+  @apply font-medium border-b
+}
