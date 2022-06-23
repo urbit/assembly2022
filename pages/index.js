@@ -99,38 +99,6 @@ export default function Home() {
         </div>
       </section>
       <section
-        className="bg-green py-32 px-8 lg:px-0 flex flex-col items-center justify-center"
-        id="schedule"
-      >
-        <div className="max-w-screen-md w-full flex flex-col space-y-16 items-center">
-          <h1 className="text-4xl font-semibold tracking-widest uppercase">
-            Schedule
-          </h1>
-          {Object.values(schedule).map((day, i) => {
-            return (
-              <div className="w-full">
-                <div className="flex justify-between font-semibold uppercase pb-2">
-                  <p>Day {i + 1}</p>
-                  <p>{day.date}</p>
-                </div>
-                <hr className="border-2 w-full" />
-                <div className="flex flex-col space-y-2 pt-2">
-                  {day.events.map((event) => {
-                    return (
-                      <div className="flex space-x-4">
-                        <p className="w-20">{event.time}</p>
-                        <p>{event.content}</p>
-                      </div>
-                    );
-                  })}
-                  {<p className="pt-4">More details soon.</p>}
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      </section>
-      <section
         className="bg-yellow py-32 px-8 lg:px-0 flex flex-col space-y-16 items-center"
         id="speakers"
       >
@@ -161,6 +129,38 @@ export default function Home() {
           <h1 className="text-lg text-center font-semibold self-center h-full w-full">
             More TBA
           </h1>
+        </div>
+      </section>
+      <section
+        className="bg-green py-32 px-8 lg:px-0 flex flex-col items-center justify-center"
+        id="schedule"
+      >
+        <div className="max-w-screen-md w-full flex flex-col space-y-16 items-center">
+          <h1 className="text-4xl font-semibold tracking-widest uppercase">
+            Schedule
+          </h1>
+          {Object.values(schedule).map((day, i) => {
+            return (
+              <div className="w-full">
+                <div className="flex justify-between font-semibold uppercase pb-2">
+                  <p>Day {i + 1}</p>
+                  <p>{day.date}</p>
+                </div>
+                <hr className="border-2 w-full" />
+                <div className="flex flex-col space-y-2 pt-2">
+                  {day.events.map((event) => {
+                    return (
+                      <div className="flex space-x-4">
+                        <p className="w-20">{event.time}</p>
+                        <p>{event.content}</p>
+                      </div>
+                    );
+                  })}
+                  {<p className="pt-4">More details soon.</p>}
+                </div>
+              </div>
+            );
+          })}
         </div>
       </section>
       <section
