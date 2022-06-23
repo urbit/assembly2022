@@ -14,7 +14,7 @@ export default function Home() {
           className="flex items-center flex-col pt-14 space-y-16 pb-64 bg-cover sm:bg-contain bg-no-repeat bg-center"
           style={{
             backgroundImage:
-              "url('https://storage.googleapis.com/media.urbit.org/assembly/assembly-2022-hero.png')",
+            "url('https://storage.googleapis.com/media.urbit.org/assembly/assembly-2022-hero.png')",
           }}
         >
           <Nav />
@@ -24,18 +24,28 @@ export default function Home() {
             2022
           </h1>
           <p className="uppercase font-black">Sept 22-25 • Miami Beach, FL</p>
-          <a className="button-lg bg-indigo-green text-white">Register Now</a>
+          <a
+            href="https://www.eventbrite.com/e/urbit-assembly-2022-tickets-370588930467"
+            target="_blank"
+            className="button-lg bg-indigo-green text-white">
+            Register Now
+          </a>
         </header>
       </div>
-      <section className="bg-black text-white flex flex-col items-center px-8 py-64 justify-center text-center antialiased">
+      <section className="flex flex-col items-center px-8 py-16 pb-32 justify-center text-left antialiased">
         <div>
-          <p className="font-semibold text-lg">as·sem·bly</p>
-          <p className="font-medium text-lg">
-            Gathering together as a group for a common purpose,
-          </p>
-          <p className="font-medium text-lg">
-            fitting together the component parts of a machine.
-          </p>
+          <p className="font-bold text-lg mb-8">as·sem·bly</p>
+          <ol>
+            <li className="font-medium text-lg">
+              gathering together as a group for a common purpose.
+            </li>
+            <li className="font-medium text-lg">
+              fitting together the component parts of a machine.
+            </li>
+            <li className="font-medium text-lg">
+              the conversion of instructions in low-level code to machine code.
+            </li>
+          </ol>
         </div>
       </section>
       <section
@@ -48,7 +58,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row space-y-8 lg:space-x-16 lg:space-y-0 justify-center">
           <div className="flex flex-col space-y-4 basis-1/3">
             <p className="">
-              Assembly 2022 is the second ever Urbit conference coming to you
+              Assembly 2022 is the second ever Urbit confluence coming to you
               this year from Miami Beach.
             </p>
             <p>
@@ -113,7 +123,7 @@ export default function Home() {
                       </div>
                     );
                   })}
-                  {day?.details && <p className="pt-4">More details soon.</p>}
+                  {<p className="pt-4">More details soon.</p>}
                 </div>
               </div>
             );
@@ -136,8 +146,10 @@ export default function Home() {
                 <p
                   className="font-monospace my-1 text-sm font-semibold"
                   style={{ color: "#6F720A" }}
+                  dangerouslySetInnerHTML={{
+                    __html: `<a target="_blank" href=https://urbit.org/ids/${speaker.patp}>${speaker.patp}</a>`
+                  }}
                 >
-                  {speaker.patp}
                 </p>
                 <span
                   id="team"
@@ -190,7 +202,7 @@ const schedule = {
       {
         time: "2:00pm",
         content:
-          "Beach pre-registration — skip the lines on Friday and get your tan on, towels provided.",
+        "Beach pre-registration — skip the lines on Friday and get your tan on, towels provided.",
       },
     ],
   },
@@ -211,6 +223,18 @@ const schedule = {
       { time: "10am", content: "Talks / Demos" },
       { time: "12pm", content: "Lunch" },
       { time: "1:30pm", content: "Workshop & Lightning Talks" },
+      { time: "4pm", content: "Panel" },
+      { time: "9pm", content: "After Party" },
+    ],
+    details: true,
+  },
+  four: {
+    date: "Sunday 9/25",
+    events: [
+      { time: "9:00am", content: "Doors open" },
+      { time: "10am", content: "Talks / Demos" },
+      { time: "12pm", content: "Lunch" },
+      { time: "1:30pm", content: "Workshop & Lightning Talks" },
       { time: "4pm", content: "Closing Talk" },
       { time: "5pm", content: "End" },
     ],
@@ -222,43 +246,43 @@ const speakers = [
   {
     name: "Balaji Srinivasan",
     patp: "~hadmul-lavsep",
-    about: `<a href="https://twitter.com/balajis">@balajis</a>`,
+    about: `<a target="_blank" href="https://twitter.com/balajis">@balajis</a>`,
     image: "https://media.urbit.org/assembly/balaji-srinivasan-tr35.png",
   },
   {
     name: "Riva Melissa Tez",
     patp: "~sonnel-malmec",
-    about: `<a href="https://twitter.com/rivatez">@rivatez</a>`,
+    about: `<a target="_blank" href="https://twitter.com/rivatez">@rivatez</a>`,
     image: "https://media.urbit.org/assembly/rivatez.png",
   },
   {
     name: "Tim Galebach",
     patp: "~timluc-miptev",
-    about: `CEO, <a href="https://uqbar.network">Uqbar Network</a>`,
+    about: `CEO, <a target="_blank" href="https://uqbar.network">Uqbar Network</a>`,
     image: "https://media.urbit.org/assembly/~timluc-miptev.png",
   },
   {
     name: "Trent Gillham",
     patp: "~lomder-librun",
-    about: `CEO, <a href="https://www.holium.com">Holium</a>`,
+    about: `CEO, <a target="_blank" href="https://www.holium.com">Holium</a>`,
     image: "https://media.urbit.org/assembly/~lomder-librun.png",
   },
   {
     name: "Brian Crain",
     patp: "~minwyc-dablen",
-    about: `CEO, <a href="https://chorus.one">Chorus One</a>`,
+    about: `CEO, <a target="_blank" href="https://chorus.one">Chorus One</a>`,
     image: "https://media.urbit.org/assembly/crain.png",
   },
   {
     name: "Galen Wolfe-Pauly",
     patp: "~ravmel-ropdyl",
-    about: `CEO, <a href="https://tlon.io">Tlon</a>`,
+    about: `CEO, <a target="_blank" href="https://tlon.io">Tlon</a>`,
     image: "https://media.urbit.org/assembly/galen.png",
   },
   {
     name: "Philip Monk",
     patp: "~wicdev-wisryt",
-    about: `CTO, <a href="https://tlon.io">Tlon</a>`,
+    about: `CTO, <a target="_blank" href="https://tlon.io">Tlon</a>`,
     image: "https://media.urbit.org/assembly/5553176.jpeg",
   },
   {
@@ -272,5 +296,11 @@ const speakers = [
     patp: "~wolref-podlex",
     about: "Executive Director, Urbit Foundation",
     image: "https://media.urbit.org/assembly/josh.png",
+  },
+  {
+    name: "Lucien Smith",
+    patp: "~hodpel-witdyr",
+    about: `Founder, <a target="_blank" href="https://stp.world">STP</a>`,
+    image: "https://pbs.twimg.com/profile_images/1538300889072644098/XmjuvIo9_400x400.jpg",
   },
 ];
