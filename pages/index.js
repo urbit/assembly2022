@@ -126,7 +126,7 @@ export default function Home() {
               </div>
             );
           })}
-          <h1 className="text-lg text-center font-semibold self-center h-full w-full">
+          <h1 className="text-lg text-center font-semibold self-center h-full w-full pt-16">
             More TBA
           </h1>
         </div>
@@ -303,4 +303,10 @@ const speakers = [
     about: `Founder, <a target="_blank" href="https://stp.world">STP</a>`,
     image: "https://pbs.twimg.com/profile_images/1538300889072644098/XmjuvIo9_400x400.jpg",
   },
+  {
+    name: "Alex Lee Moyer",
+    patp: "~nattul-podlec",
+    about: `filmmaker<br /> <a target="_blank" href="https://alexswar.com">Alex's War</a> & TFW NO GF`,
+    image: "https://media.urbit.org/assembly/alm.jpg",
+  }
 ];
