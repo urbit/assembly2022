@@ -10,6 +10,11 @@ export default function Home() {
           <title>Assembly 2022 - Urbit</title>
         </Head>
         {/* Hero + Nav */}
+        
+        <a href="https://urbit.org" className="absolute left-5 top-3 sm:left-8 sm:top-8">
+          <img src="https://media.urbit.org/assembly/urbit-sig-54.png" width="36" height="36"/>
+        </a>
+
         <header
           className="flex items-center flex-col pt-14 space-y-16 pb-64 bg-cover sm:bg-contain bg-no-repeat bg-center"
           style={{
@@ -48,10 +53,7 @@ export default function Home() {
           </ol>
         </div>
       </section>
-      <section
-        className="bg-red flex flex-col space-y-16 py-32 items-center px-8 lg:px-0"
-        id="about"
-      >
+      <section className="bg-red flex flex-col space-y-16 py-32 items-center px-8 lg:px-0" id="about">
         <h1 className="text-4xl font-semibold tracking-widest uppercase">
           About
         </h1>
