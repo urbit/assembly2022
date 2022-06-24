@@ -8,13 +8,37 @@ export default function Home() {
       <div className="container items-center mx-auto">
         <Head>
           <title>Assembly 2022 - Urbit</title>
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:site" content="@urbitfoundation" />
+          <meta name="twitter:creator" content="@urbitfoundation" />
+          <meta name="twitter:title" content="Assembly 2022 - Urbit" />
+          <meta
+            name="twitter:description"
+            content="The second ever Urbit confluence, coming to you this year from Miami Beach."
+          />
+          <meta
+            name="twitter:image"
+            content="https://interstellar.nyc3.digitaloceanspaces.com/battus-datsun/2022.6.23..17.57.52-Eventbrite%20Hero.jpg"
+          />
         </Head>
         {/* Hero + Nav */}
+
+        <a
+          href="https://urbit.org"
+          className="absolute left-5 top-3 sm:left-8 sm:top-8"
+        >
+          <img
+            src="https://media.urbit.org/assembly/urbit-sig-54.png"
+            width="36"
+            height="36"
+          />
+        </a>
+
         <header
           className="flex items-center flex-col pt-14 space-y-16 pb-64 bg-cover sm:bg-contain bg-no-repeat bg-center"
           style={{
             backgroundImage:
-            "url('https://storage.googleapis.com/media.urbit.org/assembly/assembly-2022-hero.png')",
+              "url('https://storage.googleapis.com/media.urbit.org/assembly/assembly-2022-hero.png')",
           }}
         >
           <Nav />
@@ -27,7 +51,8 @@ export default function Home() {
           <a
             href="https://www.eventbrite.com/e/urbit-assembly-2022-tickets-370588930467"
             target="_blank"
-            className="button-lg bg-indigo-green text-white">
+            className="button-lg bg-indigo-green text-white"
+          >
             Register Now
           </a>
         </header>
@@ -115,10 +140,9 @@ export default function Home() {
                   className="font-monospace my-1 text-sm font-semibold"
                   style={{ color: "#6F720A" }}
                   dangerouslySetInnerHTML={{
-                    __html: `<a target="_blank" href=https://urbit.org/ids/${speaker.patp}>${speaker.patp}</a>`
+                    __html: `<a target="_blank" href=https://urbit.org/ids/${speaker.patp}>${speaker.patp}</a>`,
                   }}
-                >
-                </p>
+                ></p>
                 <span
                   id="team"
                   dangerouslySetInnerHTML={{ __html: speaker.about }}
@@ -202,7 +226,7 @@ const schedule = {
       {
         time: "2:00pm",
         content:
-        "Beach pre-registration — skip the lines on Friday and get your tan on, towels provided.",
+          "Beach pre-registration — skip the lines on Friday and get your tan on, towels provided.",
       },
     ],
   },
@@ -301,7 +325,8 @@ const speakers = [
     name: "Lucien Smith",
     patp: "~hodpel-witdyr",
     about: `Founder, <a target="_blank" href="https://stp.world">STP</a>`,
-    image: "https://pbs.twimg.com/profile_images/1538300889072644098/XmjuvIo9_400x400.jpg",
+    image:
+      "https://pbs.twimg.com/profile_images/1538300889072644098/XmjuvIo9_400x400.jpg",
   },
   {
     name: "Alex Lee Moyer",
