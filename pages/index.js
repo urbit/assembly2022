@@ -120,6 +120,7 @@ export default function Home() {
             </p>
             <h2 className="text-3xl font-semibold">Dates</h2>
             <p>September 22nd, 23rd, 24th, and 25th</p>
+            <p class="italic">Note on Covid-19: no testing or proof-of-vaccine is required for entry.</p>
           </div>
         </div>
       </section>
