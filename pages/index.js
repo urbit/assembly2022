@@ -83,7 +83,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row space-y-8 lg:space-x-16 lg:space-y-0 justify-center">
           <div className="flex flex-col space-y-4 basis-1/3">
             <p className="">
-              Assembly 2022 is the second ever Urbit conference coming to you
+              Assembly 2022 is the second ever Urbit confluence coming to you
               this year from Miami Beach.
             </p>
             <p>
