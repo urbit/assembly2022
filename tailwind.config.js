@@ -4,6 +4,8 @@ module.exports = {
   theme: {
     extend: {},
     colors: {
+      silver: "rgba(0,0,0,0.03)",
+      lavender: "#D4D4F6",
       red: "#FFDADB",
       green: "#DCFFEA",
       "indigo-green": "#00B171",

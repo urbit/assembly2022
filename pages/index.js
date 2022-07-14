@@ -18,7 +18,7 @@ export default function Home() {
           />
           <meta
             name="twitter:image"
-            content="https://interstellar.nyc3.digitaloceanspaces.com/battus-datsun/2022.6.23..17.57.52-Eventbrite%20Hero.jpg"
+            content="https://storage.googleapis.com/media.urbit.org/assembly/twitter-card.jpg"
           />
         </Head>
         {/* Hero + Nav */}
@@ -57,22 +57,57 @@ export default function Home() {
           </a>
         </header>
       </div>
-      <section className="flex flex-col items-center px-8 py-16 pb-32 justify-center text-left antialiased">
+      <section className="flex flex-col items-center px-8 py-32 justify-center text-left antialiased bg-silver">
         <div>
-          <p className="font-bold text-lg mb-8">as·sem·bly</p>
+          <p className="font-bold text-lg mb-8 text-center">as·sem·bly</p>
           <ol>
-            <li className="font-medium text-lg">
+            <li className="pb-2 text-lg">
               gathering together as a group for a common purpose.
             </li>
-            <li className="font-medium text-lg">
+            <li className=" pb-2 text-lg">
               fitting together the component parts of a machine.
             </li>
-            <li className="font-medium text-lg">
+            <li className=" pb-2 text-lg">
               the conversion of instructions in low-level code to machine code.
             </li>
           </ol>
         </div>
       </section>
+
+      <section
+        className="bg-lavender flex flex-col space-y-16 py-32 items-center px-8 lg:px-0"
+        id="sponsors"
+      >
+        <h1 className="text-4xl font-semibold tracking-widest uppercase text-center">
+          Brought to you by
+        </h1>
+
+        <div className="flex items-center justify-evenly flex-wrap">
+            <div className="text-center items-center p-10 px-14">
+              <a href="https://urbit.org"><img src="https://storage.googleapis.com/media.urbit.org/assembly/Urbit.svg"/></a>
+            </div>
+            <div className="text-center items-center p-10 px-14">
+              <a href="https://tlon.io"><img src="https://storage.googleapis.com/media.urbit.org/assembly/Tlon.svg"/></a>
+            </div>
+            <div className="text-center items-center p-10 px-14">
+              <a href="https://uqbar.network"><img src="https://storage.googleapis.com/media.urbit.org/assembly/Uqbar.svg"/></a>
+            </div>
+            <div className="text-center items-center p-10 px-14">
+              <a href="https://holium.com"><img src="https://storage.googleapis.com/media.urbit.org/assembly/Holium.svg"/></a>
+            </div>
+            <div className="text-center items-center p-10 px-14 opacity-40">
+            <div className="p-4 border-dashed border border-black">
+              <p className>to be announced</p>
+              </div>
+            </div>
+
+        </div>
+            <p className="center">
+              Inquire regarding sponsorship opportunities at <a className="font-semibold border-b" href="mailto:assembly@urbit.org">assembly@urbit.org</a> 
+            </p>
+      </section>
+
+
       <section
         className="bg-red flex flex-col space-y-16 py-32 items-center px-8 lg:px-0"
         id="about"
