@@ -95,6 +95,9 @@ export default function Home() {
             <div className="text-center items-center p-10 px-14">
               <a href="https://holium.com"><img src="https://storage.googleapis.com/media.urbit.org/assembly/Holium.svg"/></a>
             </div>
+            <div className="text-center items-center p-10 px-14">
+              <a href="https://third.earth"><img src="https://storage.googleapis.com/media.urbit.org/assembly/thirdearth.svg"/></a>
+            </div>
             <div className="text-center items-center p-10 px-14 opacity-40">
             <div className="p-4 border-dashed border border-black">
               <p className>to be announced</p>
@@ -369,5 +372,19 @@ const speakers = [
     patp: "~nattul-podlec",
     about: `filmmaker<br /> <a target="_blank" href="https://alexswar.com">Alex's War</a> & TFW NO GF`,
     image: "https://media.urbit.org/assembly/alm.jpg",
-  }
+  },
+
+  {
+    name: "Lane Rettig",
+    patp: "~hocfur-modlex",
+    about: `Core team, <a target="_blank" href="https://spacemesh.io">Spacemesh</a>`,
+    image: "https://media.urbit.org/assembly/lanerettig.jpg",
+  },
+
+  {
+    name: "Jake Brukhman",
+    patp: "~ranter-tapper",
+    about: `Founder, <a target="_blank" href="https://coinfund.io">Coinfund</a>`,
+    image: "https://media.urbit.org/assembly/jakebrukhman.jpg",
+  },
 ];
