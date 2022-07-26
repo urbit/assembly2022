@@ -101,6 +101,9 @@ export default function Home() {
             <div className="text-center items-center p-10 px-14">
               <a href="https://sia.tech"><img src="https://storage.googleapis.com/media.urbit.org/assembly/Sia.svg"/></a>
             </div>
+            <div className="text-center items-center p-10 px-14">
+              <a href="https://assembly.capital"><img src="https://storage.googleapis.com/media.urbit.org/assembly/assembly-capital.svg"/></a>
+            </div>
             <div className="text-center items-center p-10 px-14 opacity-40">
             <div className="p-4 border-dashed border border-black">
               <p className>to be announced</p>
