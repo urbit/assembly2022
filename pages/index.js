@@ -82,7 +82,7 @@ export default function Home() {
           Brought to you by
         </h1>
 
-        <div className="flex items-center justify-evenly flex-wrap">
+        <div className="flex items-center justify-center flex-wrap max-w-5xl">
             <div className="text-center items-center p-10 px-14">
               <a href="https://urbit.org"><img src="https://storage.googleapis.com/media.urbit.org/assembly/Urbit.svg"/></a>
             </div>
@@ -97,6 +97,9 @@ export default function Home() {
             </div>
             <div className="text-center items-center p-10 px-14">
               <a href="https://third.earth"><img src="https://storage.googleapis.com/media.urbit.org/assembly/thirdearth.svg"/></a>
+            </div>
+            <div className="text-center items-center p-10 px-14">
+              <a href="https://sia.tech"><img src="https://storage.googleapis.com/media.urbit.org/assembly/Sia.svg"/></a>
             </div>
             <div className="text-center items-center p-10 px-14 opacity-40">
             <div className="p-4 border-dashed border border-black">
