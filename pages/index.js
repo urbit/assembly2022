@@ -396,4 +396,10 @@ const speakers = [
     about: `Founder, <a target="_blank" href="https://coinfund.io">Coinfund</a>`,
     image: "https://media.urbit.org/assembly/jakebrukhman.jpg",
   },
+  {
+    name: "Nevin Freeman",
+    patp: "",
+    about: `CEO &amp; Co-founder, <a target="_blank" href="https://reserve.org">Reserve</a>`,
+    image: "https://media.urbit.org/assembly/nevinfreeman.jpg",
+  }
 ];
