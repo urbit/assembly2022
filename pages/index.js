@@ -328,12 +328,6 @@ const speakers = [
     image: "https://media.urbit.org/assembly/rivatez.png",
   },
   {
-    name: "Tim Galebach",
-    patp: "~timluc-miptev",
-    about: `CEO, <a target="_blank" href="https://uqbar.network">Uqbar Network</a>`,
-    image: "https://media.urbit.org/assembly/~timluc-miptev.png",
-  },
-  {
     name: "Trent Gillham",
     patp: "~lomder-librun",
     about: `CEO, <a target="_blank" href="https://www.holium.com">Holium</a>`,
