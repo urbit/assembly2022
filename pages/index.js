@@ -11,14 +11,14 @@ export default function Home() {
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:site" content="@urbitfoundation" />
           <meta name="twitter:creator" content="@urbitfoundation" />
-          <meta name="twitter:title" content="Assembly 2022 - Urbit" />
+          <meta name="twitter:title" content="Urbit Assembly 2022" />
           <meta
             name="twitter:description"
             content="The second ever Urbit confluence, coming to you this year from Miami Beach."
           />
           <meta
             name="twitter:image"
-            content="https://storage.googleapis.com/media.urbit.org/assembly/twitter-card.jpg"
+            content="https://storage.googleapis.com/media.urbit.org/assembly/assembly-card.png"
           />
         </Head>
         {/* Hero + Nav */}
