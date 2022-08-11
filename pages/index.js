@@ -7,10 +7,10 @@ export default function Home() {
     <div className="min-h-screen min-w-screen flex flex-col">
       <div className="container items-center mx-auto">
         <Head>
-          <title>Assembly 2022 - Urbit</title>
+          <title>Urbit Assembly 2022</title>
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:site" content="@urbitfoundation" />
-          <meta name="twitter:creator" content="@urbitfoundation" />
+          <meta name="twitter:site" content="@urbit" />
+          <meta name="twitter:creator" content="@urbit" />
           <meta name="twitter:title" content="Urbit Assembly 2022" />
           <meta
             name="twitter:description"
@@ -35,19 +35,17 @@ export default function Home() {
         </a>
 
         <header
-          className="flex items-center flex-col pt-14 space-y-16 pb-64 bg-cover sm:bg-contain bg-no-repeat bg-center"
+          className="flex items-center flex-col pt-14 space-y-8 pb-64 bg-cover sm:bg-contain bg-no-repeat bg-center"
           style={{
             backgroundImage:
               "url('https://storage.googleapis.com/media.urbit.org/assembly/assembly-2022-hero.png')",
           }}
         >
           <Nav />
-          <h1 className="text-center pt-32 text-6xl font-bold uppercase tracking-widest">
-            Assembly
-            <br />
-            2022
+          <h1 className="text-center uppercase pt-48 text-4xl md:text-6xl font-bold tracking-widest">
+           Assembly 2022
           </h1>
-          <p className="uppercase font-black">Sept 22-25 • Miami Beach, FL</p>
+          <p className="uppercase text-xl md:text-2xl pb-10 font-black text-center">Sept 22–25 • Miami Beach, FL</p>
           <a
             href="https://www.eventbrite.com/e/urbit-assembly-2022-tickets-370588930467"
             target="_blank"
@@ -130,7 +128,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row space-y-8 lg:space-x-16 lg:space-y-0 justify-center">
           <div className="flex flex-col space-y-4 basis-1/3">
             <p className="">
-              Assembly 2022 is the second ever Urbit confluence coming to you
+              Urbit Assembly 2022 is the second ever Urbit confluence coming to you
               this year from Miami Beach.
             </p>
             <p>
