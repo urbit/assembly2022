@@ -390,8 +390,8 @@ const speakers = [
   },
   {
     name: "Nevin Freeman",
-    patp: "",
+    patp: "~dirrut-tanrem",
     about: `CEO &amp; Co-founder, <a target="_blank" href="https://reserve.org">Reserve</a>`,
-    image: "https://media.urbit.org/assembly/nevinfreeman.jpg",
+    image: "https://media.urbit.org/assembly/nevin.png",
   }
 ];
