@@ -393,5 +393,24 @@ const speakers = [
     patp: "~dirrut-tanrem",
     about: `CEO &amp; Co-founder, <a target="_blank" href="https://reserve.org">Reserve</a>`,
     image: "https://media.urbit.org/assembly/nevin.png",
+  },
+  {
+    name: "Asher Penn",
+    patp: "",
+    about: `Founder &amp; Editor, <a target="_blank" href="http://sexmagazine.us/">Sex Magazine</a>`,
+    image: "https://media.urbit.org/assembly/asherpenn.jpg",
+  },
+
+  {
+    name: "Dryden Brown",
+    patp: "",
+    about: `CEO &amp; Co-founder, <a target="_blank" href="https://www.praxissociety.com/">Praxis</a>`,
+    image: "https://media.urbit.org/assembly/drydenbrown.jpg",
+  },
+  {
+    name: "Hamzat Raheem",
+    patp: "",
+    about: `Sculptor, <a target="_blank" href="https://stoneofsex.xyz/">stoneofsex.xyz</a>`,
+    image: "https://media.urbit.org/assembly/hamzatraheem.jpg",
   }
 ];
