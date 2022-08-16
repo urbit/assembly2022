@@ -416,7 +416,7 @@ const speakers = [
   {
     name: "Hamzat Raheem",
     patp: "",
-    about: `Sculptor, <a target="_blank" href="https://stoneofsex.xyz/">stoneofsex.xyz</a>`,
+    about: `Marble Sculptor, <a target="_blank" href="https://creativearchaeology.xyz//">creativearchaeology.xyz</a>`,
     image: "https://media.urbit.org/assembly/hamzatraheem.jpg",
   }
 ];
