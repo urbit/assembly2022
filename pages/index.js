@@ -185,8 +185,8 @@ export default function Home() {
         <div className="flex flex-wrap max-w-screen-lg items-start">
           {speakers.map((speaker) => {
             return (
-              <div className="basis-full lg:basis-1/4 text-center items-center justify-center p-8">
-                <img className="rounded-xl" src={speaker.image} />
+              <div className="basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4 center text-center items-center justify-center p-8">
+                <img className="rounded-xl w-full" src={speaker.image} />
                 <p className="font-semibold pt-2">{speaker.name}</p>
                 <p
                   className="font-monospace my-1 text-sm font-semibold"
