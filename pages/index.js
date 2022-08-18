@@ -43,9 +43,11 @@ export default function Home() {
         >
           <Nav />
           <h1 className="text-center uppercase pt-48 text-4xl md:text-6xl font-bold tracking-widest">
-           Assembly 2022
+            Assembly 2022
           </h1>
-          <p className="uppercase text-xl md:text-2xl pb-10 font-black text-center">Sept 22–25 • Miami Beach, FL</p>
+          <p className="uppercase text-xl md:text-2xl pb-10 font-black text-center">
+            Sept 22–25 • Miami Beach, FL
+          </p>
           <a
             href="https://www.eventbrite.com/e/urbit-assembly-2022-tickets-370588930467"
             target="_blank"
@@ -81,51 +83,77 @@ export default function Home() {
         </h1>
 
         <div className="flex items-center justify-center flex-wrap max-w-5xl">
-            <div className="text-center items-center p-10 px-14">
-              <a href="https://urbit.org"><img src="https://storage.googleapis.com/media.urbit.org/assembly/Urbit.svg"/></a>
-            </div>
-            <div className="text-center items-center p-10 px-14">
-              <a href="https://tlon.io"><img src="https://storage.googleapis.com/media.urbit.org/assembly/Tlon.svg"/></a>
-            </div>
-            <div className="text-center items-center p-10 px-14">
-              <a href="https://uqbar.network"><img src="https://storage.googleapis.com/media.urbit.org/assembly/Uqbar.svg"/></a>
-            </div>
-            <div className="text-center items-center p-10 px-14">
-              <a href="https://holium.com"><img src="https://storage.googleapis.com/media.urbit.org/assembly/Holium.svg"/></a>
-            </div>
-            <div className="text-center items-center p-10 px-14">
-              <a href="https://third.earth"><img src="https://storage.googleapis.com/media.urbit.org/assembly/thirdearth.svg"/></a>
-            </div>
-            <div className="text-center items-center p-10 px-14">
-              <a href="https://sia.tech"><img src="https://storage.googleapis.com/media.urbit.org/assembly/Sia.svg"/></a>
-            </div>
-            <div className="text-center items-center p-10 px-14">
-              <a href="https://assembly.capital"><img src="https://storage.googleapis.com/media.urbit.org/assembly/assembly-capital.svg"/></a>
-            </div>
-            <div className="text-center items-center p-10 px-10">
-              <a href="https://reserve.org"><img src="https://storage.googleapis.com/media.urbit.org/assembly/reserve.svg"/></a>
-            </div>
-            <div className="text-center items-center p-10 px-10 w-56">
-              <a href="https://foam.space"><img src="https://storage.googleapis.com/media.urbit.org/assembly/foam-logo.png"/></a>
-            </div>
-            <div className="text-center items-center p-10 px-10">
-              <a href="https://tirrel.io"><img src="https://storage.googleapis.com/media.urbit.org/assembly/tirrel.svg"/></a>
-            </div>
-            <div className="text-center items-center p-10 px-10">
-              <a href="https://ledger.co"><img src="https://storage.googleapis.com/media.urbit.org/assembly/ledger.svg"/></a>
-            </div>
-            <div className="text-center items-center p-10 px-10 opacity-40">
+          <div className="text-center items-center p-10 px-14">
+            <a href="https://urbit.org">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/Urbit.svg" />
+            </a>
+          </div>
+          <div className="text-center items-center p-10 px-14">
+            <a href="https://tlon.io">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/Tlon.svg" />
+            </a>
+          </div>
+          <div className="text-center items-center p-10 px-14">
+            <a href="https://uqbar.network">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/Uqbar.svg" />
+            </a>
+          </div>
+          <div className="text-center items-center p-10 px-14">
+            <a href="https://holium.com">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/Holium.svg" />
+            </a>
+          </div>
+          <div className="text-center items-center p-10 px-14">
+            <a href="https://third.earth">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/thirdearth.svg" />
+            </a>
+          </div>
+          <div className="text-center items-center p-10 px-14">
+            <a href="https://sia.tech">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/Sia.svg" />
+            </a>
+          </div>
+          <div className="text-center items-center p-10 px-14">
+            <a href="https://assembly.capital">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/assembly-capital.svg" />
+            </a>
+          </div>
+          <div className="text-center items-center p-10 px-10">
+            <a href="https://reserve.org">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/reserve.svg" />
+            </a>
+          </div>
+          <div className="text-center items-center p-10 px-10 w-56">
+            <a href="https://foam.space">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/foam-logo.png" />
+            </a>
+          </div>
+          <div className="text-center items-center p-10 px-10">
+            <a href="https://tirrel.io">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/tirrel.svg" />
+            </a>
+          </div>
+          <div className="text-center items-center p-10 px-10">
+            <a href="https://ledger.co">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/ledger.svg" />
+            </a>
+          </div>
+          <div className="text-center items-center p-10 px-10 opacity-40">
             <div className="p-4 border-dashed border border-black">
               <p className>to be announced</p>
-              </div>
             </div>
-
+          </div>
         </div>
-            <p className="center">
-              Inquire regarding sponsorship opportunities at <a className="font-semibold border-b" href="mailto:assembly@urbit.org">assembly@urbit.org</a> 
-            </p>
+        <p className="center">
+          Inquire regarding sponsorship opportunities at{" "}
+          <a
+            className="font-semibold border-b"
+            href="mailto:assembly@urbit.org"
+          >
+            assembly@urbit.org
+          </a>
+        </p>
       </section>
-
 
       <section
         className="bg-red flex flex-col space-y-16 py-32 items-center px-8 lg:px-0"
@@ -137,8 +165,8 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row space-y-8 lg:space-x-16 lg:space-y-0 justify-center">
           <div className="flex flex-col space-y-4 basis-1/3">
             <p className="">
-              Urbit Assembly 2022 is the second ever Urbit confluence coming to you
-              this year from Miami Beach.
+              Urbit Assembly 2022 is the second ever Urbit confluence coming to
+              you this year from Miami Beach.
             </p>
             <p>
               Last year we showcased the release of software distribution which
@@ -174,7 +202,10 @@ export default function Home() {
             </p>
             <h2 className="text-3xl font-semibold">Dates</h2>
             <p>September 22nd, 23rd, 24th, and 25th</p>
-            <p class="italic">Note on Covid-19: Do not come if you have Covid. No testing or proof-of-vaccine will be required for entry.</p>
+            <p class="italic">
+              Note on Covid-19: Do not come if you have Covid. No testing or
+              proof-of-vaccine will be required for entry.
+            </p>
           </div>
         </div>
       </section>
@@ -409,7 +440,6 @@ const speakers = [
     about: `Founder &amp; Editor, <a target="_blank" href="http://sexmagazine.us/">Sex Magazine</a>`,
     image: "https://media.urbit.org/assembly/asherpenn.jpg",
   },
-
   {
     name: "Dryden Brown",
     patp: "",
@@ -421,5 +451,11 @@ const speakers = [
     patp: "",
     about: `Marble Sculptor, <a target="_blank" href="https://creativearchaeology.xyz/">creativearchaeology.xyz</a>`,
     image: "https://media.urbit.org/assembly/hamzatraheem.jpg",
-  }
+  },
+  {
+    name: "Anna Khachiyan",
+    patp: "",
+    about: `<a target="_blank" href="https://twitter.com/annakhachiyan">@annakhachiyan</a>`,
+    image: "https://media.urbit.org/assembly/s200_anna.khachiyan.jpg",
+  },
 ];
