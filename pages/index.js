@@ -111,6 +111,9 @@ export default function Home() {
             <div className="text-center items-center p-10 px-10">
               <a href="https://tirrel.io"><img src="https://storage.googleapis.com/media.urbit.org/assembly/tirrel.svg"/></a>
             </div>
+            <div className="text-center items-center p-10 px-10">
+              <a href="https://ledger.co"><img src="https://storage.googleapis.com/media.urbit.org/assembly/ledger.svg"/></a>
+            </div>
             <div className="text-center items-center p-10 px-10 opacity-40">
             <div className="p-4 border-dashed border border-black">
               <p className>to be announced</p>
@@ -358,7 +361,7 @@ const speakers = [
   {
     name: "Neal Davis",
     patp: "~lagrev-nocfep",
-    about: "Developer Experience, Urbit Foundation",
+    about: "Director of Developer Experience, Urbit Foundation",
     image: "https://media.urbit.org/assembly/5VhAqOUI_400x400.jpg",
   },
   {
@@ -416,7 +419,7 @@ const speakers = [
   {
     name: "Hamzat Raheem",
     patp: "",
-    about: `Marble Sculptor, <a target="_blank" href="https://creativearchaeology.xyz//">creativearchaeology.xyz</a>`,
+    about: `Marble Sculptor, <a target="_blank" href="https://creativearchaeology.xyz/">creativearchaeology.xyz</a>`,
     image: "https://media.urbit.org/assembly/hamzatraheem.jpg",
   }
 ];
