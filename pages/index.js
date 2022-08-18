@@ -402,19 +402,24 @@ const speakers = [
     image: "https://media.urbit.org/assembly/josh.png",
   },
   {
+    name: "Alex Lee Moyer",
+    patp: "~nattul-podlec",
+    about: `filmmaker<br /> <a target="_blank" href="https://alexswar.com">Alex's War</a> & TFW NO GF`,
+    image: "https://media.urbit.org/assembly/alm.jpg",
+  },
+  {
+    name: "Anna Khachiyan",
+    patp: "",
+    about: `<a target="_blank" href="https://twitter.com/annakhachiyan">@annakhachiyan</a>`,
+    image: "https://media.urbit.org/assembly/s200_anna.khachiyan.jpg",
+  },
+  {
     name: "Lucien Smith",
     patp: "~hodpel-witdyr",
     about: `Founder, <a target="_blank" href="https://stp.world">STP</a>`,
     image:
       "https://pbs.twimg.com/profile_images/1538300889072644098/XmjuvIo9_400x400.jpg",
   },
-  {
-    name: "Alex Lee Moyer",
-    patp: "~nattul-podlec",
-    about: `filmmaker<br /> <a target="_blank" href="https://alexswar.com">Alex's War</a> & TFW NO GF`,
-    image: "https://media.urbit.org/assembly/alm.jpg",
-  },
-
   {
     name: "Lane Rettig",
     patp: "~hocfur-modlex",
@@ -451,11 +456,5 @@ const speakers = [
     patp: "",
     about: `Marble Sculptor, <a target="_blank" href="https://creativearchaeology.xyz/">creativearchaeology.xyz</a>`,
     image: "https://media.urbit.org/assembly/hamzatraheem.jpg",
-  },
-  {
-    name: "Anna Khachiyan",
-    patp: "",
-    about: `<a target="_blank" href="https://twitter.com/annakhachiyan">@annakhachiyan</a>`,
-    image: "https://media.urbit.org/assembly/s200_anna.khachiyan.jpg",
   },
 ];
