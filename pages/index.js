@@ -411,7 +411,8 @@ const speakers = [
     name: "Anna Khachiyan",
     patp: "",
     about: `<a target="_blank" href="https://twitter.com/annakhachiyan">@annakhachiyan</a><br/> co-host, <a target="_blank" href="http://redscarepodcast.com">Red Scare</a>`,
-    image: "https://media.urbit.org/assembly/s200_anna.khachiyan.jpg",
+    image:
+      "https://storage.googleapis.com/media.urbit.org/assembly/s200_anna.khachiyan.jpg",
   },
   {
     name: "Lucien Smith",
