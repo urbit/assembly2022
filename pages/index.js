@@ -418,7 +418,7 @@ const speakers = [
   },
   {
     name: "Hamzat Raheem",
-    patp: "",
+    patp: "~bonpun-hacmyn",
     about: `Marble Sculptor, <a target="_blank" href="https://creativearchaeology.xyz/">creativearchaeology.xyz</a>`,
     image: "https://media.urbit.org/assembly/hamzatraheem.jpg",
   }
