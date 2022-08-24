@@ -138,6 +138,11 @@ export default function Home() {
               <img src="https://storage.googleapis.com/media.urbit.org/assembly/ledger.svg" />
             </a>
           </div>
+          <div className="text-center items-center p-10 px-10 w-56">
+            <a href="https://coinfund.io">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/coinfund.png" />
+            </a>
+          </div>
           <div className="text-center items-center p-10 px-10 opacity-40">
             <div className="p-4 border-dashed border border-black">
               <p className>to be announced</p>
