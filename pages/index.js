@@ -473,6 +473,13 @@ const speakers = [
     patp: "",
     about: `Co-founder &amp; CEO, <a target="_blank" href="https://tributelabs.xyz">Tribute Labs</a>`,
     image: "https://media.urbit.org/assembly/aaronwright.jpg",
+  },
+  {
+    name: "Petra Cortright",
+    patp: "",
+    about: `Artist`,
+    image: "https://media.urbit.org/assembly/petra.jpg",
   }
+
 
 ];
