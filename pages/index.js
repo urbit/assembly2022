@@ -83,67 +83,72 @@ export default function Home() {
         </h1>
 
         <div className="flex items-center justify-center flex-wrap max-w-5xl">
-          <div className="text-center items-center p-10 px-14">
+          <div className="text-center items-center p-8 sm:p-10 px-14">
             <a href="https://urbit.org">
               <img src="https://storage.googleapis.com/media.urbit.org/assembly/Urbit.svg" />
             </a>
           </div>
-          <div className="text-center items-center p-10 px-14">
+          <div className="text-center items-center p-8 sm:p-10 px-14">
             <a href="https://tlon.io">
               <img src="https://storage.googleapis.com/media.urbit.org/assembly/Tlon.svg" />
             </a>
           </div>
-          <div className="text-center items-center p-10 px-14">
+          <div className="text-center items-center p-8 sm:p-10 px-14">
             <a href="https://uqbar.network">
               <img src="https://storage.googleapis.com/media.urbit.org/assembly/Uqbar.svg" />
             </a>
           </div>
-          <div className="text-center items-center p-10 px-14">
+          <div className="text-center items-center p-8 sm:p-10 px-14">
             <a href="https://holium.com">
               <img src="https://storage.googleapis.com/media.urbit.org/assembly/Holium.svg" />
             </a>
           </div>
-          <div className="text-center items-center p-10 px-14">
+          <div className="text-center items-center p-8 sm:p-10  px-14">
             <a href="https://third.earth">
               <img src="https://storage.googleapis.com/media.urbit.org/assembly/thirdearth.svg" />
             </a>
           </div>
-          <div className="text-center items-center p-10 px-14">
+          <div className="text-center items-center p-8 sm:p-10  px-14">
             <a href="https://sia.tech">
               <img src="https://storage.googleapis.com/media.urbit.org/assembly/Sia.svg" />
             </a>
           </div>
-          <div className="text-center items-center p-10 px-14">
+          <div className="text-center items-center p-8 sm:p-10  px-14">
             <a href="https://assembly.capital">
               <img src="https://storage.googleapis.com/media.urbit.org/assembly/assembly-capital.svg" />
             </a>
           </div>
-          <div className="text-center items-center p-10 px-10">
+          <div className="text-center items-center p-8 sm:p-10  px-10">
             <a href="https://reserve.org">
               <img src="https://storage.googleapis.com/media.urbit.org/assembly/reserve.svg" />
             </a>
           </div>
-          <div className="text-center items-center p-10 px-10 w-56">
+          <div className="text-center items-center p-8 sm:p-10  px-10 w-56">
             <a href="https://foam.space">
               <img src="https://storage.googleapis.com/media.urbit.org/assembly/foam-logo.png" />
             </a>
           </div>
-          <div className="text-center items-center p-10 px-10">
+          <div className="text-center items-center p-8 sm:p-10  px-10">
             <a href="https://tirrel.io">
               <img src="https://storage.googleapis.com/media.urbit.org/assembly/tirrel.svg" />
             </a>
           </div>
-          <div className="text-center items-center p-10 px-10">
+          <div className="text-center items-center p-8 sm:p-10  px-10">
             <a href="https://ledger.co">
               <img src="https://storage.googleapis.com/media.urbit.org/assembly/ledger.svg" />
             </a>
           </div>
-          <div className="text-center items-center p-10 px-10 w-56">
+          <div className="text-center items-center p-8 sm:p-10  px-10 w-56">
             <a href="https://coinfund.io">
               <img src="https://storage.googleapis.com/media.urbit.org/assembly/coinfund.png" />
             </a>
           </div>
-          <div className="text-center items-center p-10 px-10 opacity-40">
+          <div className="text-center items-center p-8 sm:p-10  px-10 w-56">
+            <a href="https://vienna.earth">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/vienna.svg" />
+            </a>
+          </div>
+          <div className="text-center items-center p-8 sm:p-10  px-10 opacity-40">
             <div className="p-4 border-dashed border border-black">
               <p className>to be announced</p>
             </div>
@@ -452,15 +457,22 @@ const speakers = [
     image: "https://media.urbit.org/assembly/asherpenn.jpg",
   },
   {
+    name: "Hamzat Raheem",
+    patp: "~bonpun-hacmyn",
+    about: `Marble Sculptor, <a target="_blank" href="https://creativearchaeology.xyz/">creativearchaeology.xyz</a>`,
+    image: "https://media.urbit.org/assembly/hamzatraheem.jpg",
+  },
+  {
     name: "Dryden Brown",
     patp: "",
     about: `CEO &amp; Co-founder, <a target="_blank" href="https://www.praxissociety.com/">Praxis</a>`,
     image: "https://media.urbit.org/assembly/drydenbrown.jpg",
   },
   {
-    name: "Hamzat Raheem",
-    patp: "~bonpun-hacmyn",
-    about: `Marble Sculptor, <a target="_blank" href="https://creativearchaeology.xyz/">creativearchaeology.xyz</a>`,
-    image: "https://media.urbit.org/assembly/hamzatraheem.jpg",
-  },
+    name: "Aaron Wright",
+    patp: "",
+    about: `Co-founder &amp; CEO, <a target="_blank" href="https://tributelabs.xyz">Tribute Labs</a>`,
+    image: "https://media.urbit.org/assembly/aaronwright.jpg",
+  }
+
 ];
