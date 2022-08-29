@@ -479,6 +479,24 @@ const speakers = [
     patp: "",
     about: `Artist`,
     image: "https://media.urbit.org/assembly/petra.jpg",
+  },
+  {
+    name: "Matt Condon",
+    patp: "",
+    about: `Creator, <a target="_blank" href="https://themanymatts.lol/">The Many Matts</a>`,
+    image: "https://media.urbit.org/assembly/mattcondon.jpg",
+  },
+  {
+    name: "Sam Frank",
+    patp: "~todset-partug",
+    about: `Writer, Board Member, Urbit Foundation`,
+    image: "https://media.urbit.org/assembly/samfrank.jpg",
+  },
+  {
+    name: "Samo Burja",
+    patp: "",
+    about: `Founder, <a target="_blank" href="https://www.bismarckanalysis.com/">Bismarck Analysis</a>`,
+    image: "https://media.urbit.org/assembly/samoburja.jpg",
   }
 
 
