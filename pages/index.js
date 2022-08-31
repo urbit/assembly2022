@@ -376,40 +376,22 @@ const speakers = [
     image: "https://media.urbit.org/assembly/rivatez.png",
   },
   {
-    name: "Trent Gillham",
-    patp: "~lomder-librun",
-    about: `CEO, <a target="_blank" href="https://www.holium.com">Holium</a>`,
-    image: "https://media.urbit.org/assembly/~lomder-librun.png",
-  },
-  {
-    name: "Brian Crain",
-    patp: "~minwyc-dablen",
-    about: `CEO, <a target="_blank" href="https://chorus.one">Chorus One</a>`,
-    image: "https://media.urbit.org/assembly/crain.png",
-  },
-  {
     name: "Galen Wolfe-Pauly",
     patp: "~ravmel-ropdyl",
     about: `CEO, <a target="_blank" href="https://tlon.io">Tlon</a>`,
     image: "https://media.urbit.org/assembly/galen.png",
   },
   {
-    name: "Philip Monk",
-    patp: "~wicdev-wisryt",
-    about: `CTO, <a target="_blank" href="https://tlon.io">Tlon</a>`,
-    image: "https://media.urbit.org/assembly/5553176.jpeg",
-  },
-  {
-    name: "Neal Davis",
-    patp: "~lagrev-nocfep",
-    about: "Director of Developer Experience, Urbit Foundation",
-    image: "https://media.urbit.org/assembly/5VhAqOUI_400x400.jpg",
-  },
-  {
     name: "Josh Lehman",
     patp: "~wolref-podlex",
     about: "Executive Director, Urbit Foundation",
     image: "https://media.urbit.org/assembly/josh.png",
+  },
+    {
+    name: "Walter Kirn",
+    patp: "",
+    about: `<a target="_blank" href="https://twitter.com/walterkirn">@walterkirn</a><br>Writer`,
+    image: "https://media.urbit.org/assembly/walterkirn.jpg",
   },
   {
     name: "Alex Lee Moyer",
@@ -425,19 +407,23 @@ const speakers = [
       "https://storage.googleapis.com/media.urbit.org/assembly/s200_anna.khachiyan.jpg",
   },
   {
-    name: "Lucien Smith",
-    patp: "~hodpel-witdyr",
-    about: `Founder, <a target="_blank" href="https://stp.world">STP</a>`,
-    image:
-      "https://pbs.twimg.com/profile_images/1538300889072644098/XmjuvIo9_400x400.jpg",
+    name: "Samo Burja",
+    patp: "",
+    about: `<a target="_blank">@samoburja</a><br>Founder, <a target="_blank" href="https://www.bismarckanalysis.com/">Bismarck Analysis</a>`,
+    image: "https://media.urbit.org/assembly/samoburja.jpg",
   },
   {
-    name: "Lane Rettig",
-    patp: "~hocfur-modlex",
-    about: `Core team, <a target="_blank" href="https://spacemesh.io">Spacemesh</a>`,
-    image: "https://media.urbit.org/assembly/lanerettig.jpg",
+    name: "Petra Cortright",
+    patp: "",
+    about: `Artist`,
+    image: "https://media.urbit.org/assembly/petra.jpg",
   },
-
+  {
+    name: "Brian Crain",
+    patp: "~minwyc-dablen",
+    about: `CEO, <a target="_blank" href="https://chorus.one">Chorus One</a>`,
+    image: "https://media.urbit.org/assembly/crain.png",
+  },
   {
     name: "Jake Brukhman",
     patp: "~ranter-tapper",
@@ -451,16 +437,10 @@ const speakers = [
     image: "https://media.urbit.org/assembly/nevin.png",
   },
   {
-    name: "Asher Penn",
-    patp: "",
-    about: `Founder &amp; Editor, <a target="_blank" href="http://sexmagazine.us/">Sex Magazine</a>`,
-    image: "https://media.urbit.org/assembly/asherpenn.jpg",
-  },
-  {
-    name: "Hamzat Raheem",
-    patp: "~bonpun-hacmyn",
-    about: `Marble Sculptor, <a target="_blank" href="https://creativearchaeology.xyz/">creativearchaeology.xyz</a>`,
-    image: "https://media.urbit.org/assembly/hamzatraheem.jpg",
+    name: "Lane Rettig",
+    patp: "~hocfur-modlex",
+    about: `Core team, <a target="_blank" href="https://spacemesh.io">Spacemesh</a>`,
+    image: "https://media.urbit.org/assembly/lanerettig.jpg",
   },
   {
     name: "Dryden Brown",
@@ -475,16 +455,42 @@ const speakers = [
     image: "https://media.urbit.org/assembly/aaronwright.jpg",
   },
   {
-    name: "Petra Cortright",
+    name: "Asher Penn",
     patp: "",
-    about: `Artist`,
-    image: "https://media.urbit.org/assembly/petra.jpg",
+    about: `Founder &amp; Editor, <a target="_blank" href="http://sexmagazine.us/">Sex Magazine</a>`,
+    image: "https://media.urbit.org/assembly/asherpenn.jpg",
   },
+  {
+    name: "Lucien Smith",
+    patp: "~hodpel-witdyr",
+    about: `Founder, <a target="_blank" href="https://stp.world">STP</a>`,
+    image:
+      "https://pbs.twimg.com/profile_images/1538300889072644098/XmjuvIo9_400x400.jpg",
+  },
+  {
+    name: "Hamzat Raheem",
+    patp: "~bonpun-hacmyn",
+    about: `Marble Sculptor, <a target="_blank" href="https://creativearchaeology.xyz/">creativearchaeology.xyz</a>`,
+    image: "https://media.urbit.org/assembly/hamzatraheem.jpg",
+  },
+
   {
     name: "Matt Condon",
     patp: "",
     about: `Creator, <a target="_blank" href="https://themanymatts.lol/">The Many Matts</a>`,
     image: "https://media.urbit.org/assembly/mattcondon.jpg",
+  },
+  {
+    name: "Philip Monk",
+    patp: "~wicdev-wisryt",
+    about: `CTO, <a target="_blank" href="https://tlon.io">Tlon</a>`,
+    image: "https://media.urbit.org/assembly/5553176.jpeg",
+  },
+  {
+    name: "Neal Davis",
+    patp: "~lagrev-nocfep",
+    about: "Director of Developer Experience, Urbit Foundation",
+    image: "https://media.urbit.org/assembly/5VhAqOUI_400x400.jpg",
   },
   {
     name: "Sam Frank",
@@ -493,11 +499,11 @@ const speakers = [
     image: "https://media.urbit.org/assembly/samfrank.jpg",
   },
   {
-    name: "Samo Burja",
-    patp: "",
-    about: `Founder, <a target="_blank" href="https://www.bismarckanalysis.com/">Bismarck Analysis</a>`,
-    image: "https://media.urbit.org/assembly/samoburja.jpg",
-  }
+    name: "Trent Gillham",
+    patp: "~lomder-librun",
+    about: `CEO, <a target="_blank" href="https://www.holium.com">Holium</a>`,
+    image: "https://media.urbit.org/assembly/trent.png",
+  },
 
 
 ];
