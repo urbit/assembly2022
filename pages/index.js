@@ -82,7 +82,7 @@ export default function Home() {
         className="bg-lavender flex flex-col space-y-16 py-32 items-center px-8 lg:px-0"
         id="sponsors"
       >
-        <h1 className="text-3xl font-semibold tracking-widest uppercase text-center">
+        <h1 className="text-3xl font-regular tracking-widest uppercase text-center">
           Brought to you by
         </h1>
 
@@ -173,7 +173,7 @@ export default function Home() {
         className="bg-green flex flex-col space-y-16 py-32 items-center px-8 lg:px-0"
         id="about"
       >
-        <h1 className="text-3xl font-semibold tracking-widest uppercase">
+        <h1 className="text-3xl font-regular tracking-widest uppercase">
           About
         </h1>
         <div className="flex flex-col lg:flex-row space-y-8 lg:space-x-16 lg:space-y-0 justify-center">
@@ -206,7 +206,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col space-y-8 basis-1/4">
-            <h2 className="text-3xl font-semibold">Location</h2>
+            <h2 className="text-3xl font-regular">Location</h2>
             <p>
               1111 Lincoln Road
               <br />
@@ -214,7 +214,7 @@ export default function Home() {
               <br />
               Miami Beach, FL 33139
             </p>
-            <h2 className="text-3xl font-semibold">Dates</h2>
+            <h2 className="text-3xl font-regular">Dates</h2>
             <p>September 22nd, 23rd, 24th, and 25th</p>
             <p class="italic">
               Note on Covid-19: Do not come if you have Covid. No testing or
@@ -227,7 +227,7 @@ export default function Home() {
         className="bg-melon py-32 px-8 lg:px-0 flex flex-col space-y-16 items-center"
         id="speakers"
       >
-        <h1 className="text-3xl font-semibold tracking-widest uppercase">
+        <h1 className="text-3xl font-regular tracking-widest uppercase">
           Speakers
         </h1>
         <div className="flex flex-wrap max-w-screen-lg items-start">
@@ -260,7 +260,7 @@ export default function Home() {
         id="schedule"
       >
         <div className="max-w-screen-md w-full flex flex-col space-y-16 items-center">
-          <h1 className="text-3xl font-semibold tracking-widest uppercase">
+          <h1 className="text-3xl font-regular tracking-widest uppercase">
             Schedule
           </h1>
           {Object.values(schedule).map((day, i) => {
@@ -291,7 +291,7 @@ export default function Home() {
         className="bg-grey text-melon py-32 px-8 lg:px-0 flex flex-col space-y-16 items-center"
         id="contact"
       >
-        <h1 className="text-3xl font-semibold tracking-widest uppercase">
+        <h1 className="text-3xl font-regular tracking-widest uppercase">
           Contact
         </h1>
         <div className="w-full max-w-screen-md flex flex-col space-y-8 items-left">
