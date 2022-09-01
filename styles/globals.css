@@ -39,3 +39,14 @@ ul li {
 #team a {
   @apply font-medium border-b
 }
+
+#heroVideo {
+  width: 100vw;
+  height:  100%;
+  max-height: calc(100vh - 50px);
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  }
