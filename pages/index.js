@@ -22,8 +22,8 @@ export default function Home() {
         >
           <img
             src="https://media.urbit.org/assembly/urbit-sig-108.png"
-            width="54"
-            height="54"
+            width="48"
+            height="48"
           />
         </a>
         </div>
@@ -31,7 +31,8 @@ export default function Home() {
 
         <Nav />
 
-        <video autoPlay muted loop playsInline id="heroVideo">
+        <video autoPlay muted loop playsInline id="heroVideo" className="aspect-video">    
+
           <source src="https://storage.googleapis.com/media.urbit.org/assembly/16-9_landing.mp4" type="video/mp4"/>
         </video>
 
