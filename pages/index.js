@@ -31,7 +31,7 @@ export default function Home() {
 
         <Nav />
 
-        <video autoPlay muted loop playsinline id="heroVideo">
+        <video autoPlay muted loop playsInline id="heroVideo">
           <source src="https://storage.googleapis.com/media.urbit.org/assembly/16-9_landing.mp4" type="video/mp4"/>
         </video>
 
