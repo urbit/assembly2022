@@ -5,6 +5,40 @@ import Footer from "@components/Footer";
 export default function Home() {
   return (
     <div className="min-h-screen min-w-screen flex flex-col">
+
+
+        {/* Hero + Nav */}
+
+
+
+        <header
+          className="flex items-center flex-col bg-cover sm:bg-contain bg-no-repeat bg-center"
+        >
+
+        <div className="w-full flex text-center justify-center bg-black">
+        <a
+          href="https://urbit.org"
+          className="w-100 left-2 top-1 flex sm:block sm:absolute"
+        >
+          <img
+            src="https://media.urbit.org/assembly/urbit-sig-108.png"
+            width="54"
+            height="54"
+          />
+        </a>
+        </div>
+
+
+        <Nav />
+
+        <video autoPlay muted loop playsinline id="heroVideo">
+          <source src="https://storage.googleapis.com/media.urbit.org/assembly/16-9_landing.mp4" type="video/mp4"/>
+        </video>
+
+
+        </header>
+
+
       <div className="container items-center mx-auto">
         <Head>
           <title>Urbit Assembly 2022</title>
@@ -21,41 +55,11 @@ export default function Home() {
             content="https://storage.googleapis.com/media.urbit.org/assembly/assembly-card.png"
           />
         </Head>
-        {/* Hero + Nav */}
 
-        <a
-          href="https://urbit.org"
-          className="absolute left-5 top-3 sm:left-8 sm:top-8"
-        >
-          <img
-            src="https://media.urbit.org/assembly/urbit-sig-54.png"
-            width="36"
-            height="36"
-          />
-        </a>
 
-        <header
-          className="flex items-center flex-col pt-14 space-y-8 pb-64 bg-cover sm:bg-contain bg-no-repeat bg-center"
-          style={{
-            backgroundImage:
-              "url('https://storage.googleapis.com/media.urbit.org/assembly/assembly-2022-hero.png')",
-          }}
-        >
-          <Nav />
-          <h1 className="text-center uppercase pt-48 text-4xl md:text-6xl font-bold tracking-widest">
-            Assembly 2022
-          </h1>
-          <p className="uppercase text-xl md:text-2xl pb-10 font-black text-center">
-            Sept 22–25 • Miami Beach, FL
-          </p>
-          <a
-            href="https://www.eventbrite.com/e/urbit-assembly-2022-tickets-370588930467"
-            target="_blank"
-            className="button-lg bg-indigo-green text-white"
-          >
-            Register Now
-          </a>
-        </header>
+
+
+
       </div>
       <section className="flex flex-col items-center px-8 py-32 justify-center text-left antialiased bg-silver">
         <div>
@@ -78,7 +82,7 @@ export default function Home() {
         className="bg-lavender flex flex-col space-y-16 py-32 items-center px-8 lg:px-0"
         id="sponsors"
       >
-        <h1 className="text-3xl font-semibold tracking-widest uppercase text-center">
+        <h1 className="text-3xl font-regular tracking-widest uppercase text-center">
           Brought to you by
         </h1>
 
@@ -166,10 +170,10 @@ export default function Home() {
       </section>
 
       <section
-        className="bg-red flex flex-col space-y-16 py-32 items-center px-8 lg:px-0"
+        className="bg-green flex flex-col space-y-16 py-32 items-center px-8 lg:px-0"
         id="about"
       >
-        <h1 className="text-3xl font-semibold tracking-widest uppercase">
+        <h1 className="text-3xl font-regular tracking-widest uppercase">
           About
         </h1>
         <div className="flex flex-col lg:flex-row space-y-8 lg:space-x-16 lg:space-y-0 justify-center">
@@ -202,7 +206,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col space-y-8 basis-1/4">
-            <h2 className="text-3xl font-semibold">Location</h2>
+            <h2 className="text-3xl font-regular">Location</h2>
             <p>
               1111 Lincoln Road
               <br />
@@ -210,7 +214,7 @@ export default function Home() {
               <br />
               Miami Beach, FL 33139
             </p>
-            <h2 className="text-3xl font-semibold">Dates</h2>
+            <h2 className="text-3xl font-regular">Dates</h2>
             <p>September 22nd, 23rd, 24th, and 25th</p>
             <p class="italic">
               Note on Covid-19: Do not come if you have Covid. No testing or
@@ -220,10 +224,10 @@ export default function Home() {
         </div>
       </section>
       <section
-        className="bg-yellow py-32 px-8 lg:px-0 flex flex-col space-y-16 items-center"
+        className="bg-melon py-32 px-8 lg:px-0 flex flex-col space-y-16 items-center"
         id="speakers"
       >
-        <h1 className="text-3xl font-semibold tracking-widest uppercase">
+        <h1 className="text-3xl font-regular tracking-widest uppercase">
           Speakers
         </h1>
         <div className="flex flex-wrap max-w-screen-lg items-start">
@@ -234,7 +238,7 @@ export default function Home() {
                 <p className="font-semibold pt-2">{speaker.name}</p>
                 <p
                   className="font-monospace my-1 text-sm font-semibold"
-                  style={{ color: "#6F720A" }}
+                  style={{ color: "#853738" }}
                   dangerouslySetInnerHTML={{
                     __html: `<a target="_blank" href=https://urbit.org/ids/${speaker.patp}>${speaker.patp}</a>`,
                   }}
@@ -252,11 +256,11 @@ export default function Home() {
         </div>
       </section>
       <section
-        className="bg-green py-32 px-8 lg:px-0 flex flex-col items-center justify-center"
+        className="bg-purple text-white py-32 px-8 lg:px-0 flex flex-col items-center justify-center"
         id="schedule"
       >
         <div className="max-w-screen-md w-full flex flex-col space-y-16 items-center">
-          <h1 className="text-3xl font-semibold tracking-widest uppercase">
+          <h1 className="text-3xl font-regular tracking-widest uppercase">
             Schedule
           </h1>
           {Object.values(schedule).map((day, i) => {
@@ -284,10 +288,10 @@ export default function Home() {
         </div>
       </section>
       <section
-        className="bg-blue py-32 px-8 lg:px-0 flex flex-col space-y-16 items-center"
+        className="bg-grey text-melon py-32 px-8 lg:px-0 flex flex-col space-y-16 items-center"
         id="contact"
       >
-        <h1 className="text-3xl font-semibold tracking-widest uppercase">
+        <h1 className="text-3xl font-regular tracking-widest uppercase">
           Contact
         </h1>
         <div className="w-full max-w-screen-md flex flex-col space-y-8 items-left">

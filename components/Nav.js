@@ -1,19 +1,35 @@
 export default function Header({ title }) {
   return (
 
-      <nav className="list-none flex space-x-4 text-gray relative justify-center">
-        <li className="text-sm md:text-lg ">
-          <a href="#about">About</a>
-        </li>
-        <li className="text-sm md:text-lg ">
-          <a href="#schedule">Schedule</a>
-        </li>
-        <li className="text-sm md:text-lg ">
-          <a href="#speakers">Speakers</a>
-        </li>
-        <li className="text-sm md:text-lg ">
-          <a href="#contact">Contact</a>
-        </li>
+
+      <nav className="flex space-x-4 bg-black w-full justify-center">
+        <ul className="flex space-x-2 md:space-x-4 bg-black list-none self-center justify-center text-white py-4 ">
+          <li className="text-sm md:text-lg self-center ">
+            <a href="#about ">About</a>
+          </li>
+          <li className="text-sm md:text-lg self-center">
+            <a href="#schedule">Schedule</a>
+          </li>
+          <li className="text-sm md:text-lg self-center">
+            <a href="#speakers">Speakers</a>
+          </li>
+          <li className="text-sm md:text-lg self-center ">
+            <a href="#contact">Contact</a>
+          </li>
+
+          <li className="text-sm md:text-lg self-center">
+
+            <a
+            href="https://www.eventbrite.com/e/urbit-assembly-2022-tickets-370588930467"
+            target="_blank"
+            className="text-sm md:text-lg py-2 px-4 rounded-md text-black bg-melon">
+            Register
+          </a>
+          </li>
+        </ul>
+
+
+
       </nav>
   );
 }
