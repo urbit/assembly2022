@@ -515,6 +515,28 @@ const speakers = [
     about: `CEO, <a target="_blank" href="https://www.holium.com">Holium</a>`,
     image: "https://media.urbit.org/assembly/trent.png",
   },
-
-
+  {
+    name: "Ted Blackman",
+    patp: "~rovnys-ricfer",
+    about: `Engineer, <a target="_blank" href="https://tlon.io">Tlon</a>`,
+    image: "https://media.urbit.org/assembly/tedblackman.jpg",
+  },
+  {
+    name: "Joe Bryan",
+    patp: "~master-morzod",
+    about: `Engineer, <a target="_blank" href="https://tlon.io">Tlon</a>`,
+    image: "https://media.urbit.org/assembly/joebryan.jpg",
+  },
+  {
+    name: "Luke Stiles",
+    patp: "~famhut-wolpyx",
+    about: `Engineering Manager, <a target="_blank" href="https://tlon.io">Tlon</a>`,
+    image: "https://media.urbit.org/assembly/lukestiles.jpg",
+  },
+  {
+    name: "",
+    patp: "~palfun-foslup",
+    about: `Engineer, <a target="_blank" href="https://tlon.io">Tlon</a>`,
+    image: "https://media.urbit.org/assembly/palfun.png",
+  },
 ];
