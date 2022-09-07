@@ -53,7 +53,7 @@ export default function Home() {
           />
           <meta
             name="twitter:image"
-            content="https://storage.googleapis.com/media.urbit.org/assembly/assembly-card.png"
+            content="https://storage.googleapis.com/media.urbit.org/assembly/assembly-card-2.png"
           />
         </Head>
 
