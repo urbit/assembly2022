@@ -130,7 +130,7 @@ export default function Home() {
           </div>
           <div className="text-center items-center p-8 sm:p-10  px-10 w-56">
             <a href="https://foam.space">
-              <img src="https://storage.googleapis.com/media.urbit.org/assembly/foam-logo.png" />
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/foam-logo4.png" />
             </a>
           </div>
           <div className="text-center items-center p-8 sm:p-10  px-10">
@@ -414,7 +414,7 @@ const speakers = [
   {
     name: "Samo Burja",
     patp: "",
-    about: `<a target="_blank">@samoburja</a><br>Founder, <a target="_blank" href="https://www.bismarckanalysis.com/">Bismarck Analysis</a>`,
+    about: `<a target="_blank" href="https://twitter.com/samoburja">@samoburja</a><br>Founder, <a target="_blank" href="https://www.bismarckanalysis.com/">Bismarck Analysis</a>`,
     image: "https://media.urbit.org/assembly/samoburja.jpg",
   },
   {
@@ -422,6 +422,12 @@ const speakers = [
     patp: "",
     about: `Artist`,
     image: "https://media.urbit.org/assembly/petra.jpg",
+  },
+    {
+    name: "Katherine Dee",
+    patp: "",
+    about: `<a target="_blank" href="https://twitter.com/default_friend">@default_friend</a><br>Writer, <a target="_blank" href="https://defaultfriend.substack.com/">Default Wisdom</a>`,
+    image: "https://media.urbit.org/assembly/defaultfriend.jpg",
   },
   {
     name: "Brian Crain",
@@ -473,18 +479,18 @@ const speakers = [
       "https://pbs.twimg.com/profile_images/1538300889072644098/XmjuvIo9_400x400.jpg",
   },
   {
+    name: "Matt Condon",
+    patp: "",
+    about: `Creator, <a target="_blank" href="https://themanymatts.lol/">The Many Matts</a>`,
+    image: "https://media.urbit.org/assembly/mattcondon.jpg",
+  },
+  {
     name: "Hamzat Raheem",
     patp: "~bonpun-hacmyn",
     about: `Marble Sculptor, <a target="_blank" href="https://creativearchaeology.xyz/">creativearchaeology.xyz</a>`,
     image: "https://media.urbit.org/assembly/hamzatraheem.jpg",
   },
 
-  {
-    name: "Matt Condon",
-    patp: "",
-    about: `Creator, <a target="_blank" href="https://themanymatts.lol/">The Many Matts</a>`,
-    image: "https://media.urbit.org/assembly/mattcondon.jpg",
-  },
   {
     name: "Philip Monk",
     patp: "~wicdev-wisryt",
