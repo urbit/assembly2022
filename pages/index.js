@@ -153,12 +153,16 @@ export default function Home() {
               <img src="https://storage.googleapis.com/media.urbit.org/assembly/vienna.svg" />
             </a>
           </div>
-          <div className="text-center items-center p-8 sm:p-10  px-10 opacity-40">
+          {/*
+                    <div className="text-center items-center p-8 sm:p-10  px-10 opacity-40">
             <div className="p-4 border-dashed border border-black">
               <p className>to be announced</p>
             </div>
           </div>
+          */}
         </div>
+
+        {/*
         <p className="center">
           Inquire regarding sponsorship opportunities at{" "}
           <a
@@ -168,6 +172,8 @@ export default function Home() {
             assembly@urbit.org
           </a>
         </p>
+
+      */}
       </section>
 
       <section
