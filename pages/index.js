@@ -540,4 +540,28 @@ const speakers = [
     about: `Engineer, <a target="_blank" href="https://tlon.io">Tlon</a>`,
     image: "https://media.urbit.org/assembly/palfun.png",
   },
+  {
+    name: "Justin Murphy",
+    patp: "~hatryx-lastud",
+    about: `Host, <a target="_blank" href="https://www.otherlife.co/">Other Life</a>`,
+    image: "https://media.urbit.org/assembly/justinmurphy.jpg",
+  },
+  {
+    name: "Josh Rosenthal, PhD",
+    patp: "",
+    about: `Partner, <a target="_blank" href="https://www.go6ixthevent.com/">Sixth Event</a> &amp; <a target="_blank" href="https://www.https://www.gonarwhalventures.com/.com/">Narwhal Ventures</a>` ,
+    image: "https://media.urbit.org/assembly/joshrosenthal.jpg",
+  },
+  {
+    name: "",
+    patp: "~nilrun-mardux",
+    about: `<a target="_blank" href="https://twitter.com/AlephDao">@AlephDAO</a>`,
+    image: "https://media.urbit.org/assembly/alephdao.jpg",
+  },
+  {
+    name: "Soryu Forall",
+    patp: "",
+    about: `Founder and Head Teacher, <a target="_blank" href="https://www.centerformindfullearning.org/">Center for Mindful Learning</a>`,
+    image: "https://media.urbit.org/assembly/soryu.jpg",
+  },
 ];
