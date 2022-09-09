@@ -301,11 +301,6 @@ export default function Home() {
             Feel free to reach out if you have any questions regarding Assembly
             2022.
           </p>
-          <h3 className="font-bold">Financial Assistance</h3>
-          <p>
-            We want anyone interested in Urbit to be able to attend Assembly
-            2022. If you need financial assistance, please reach out via email.
-          </p>
           <p>
             <a
               className="font-semibold border-b"
@@ -314,6 +309,12 @@ export default function Home() {
               assembly@urbit.org
             </a>
           </p>
+
+          <h3 className="font-bold pt-8">Financial Assistance</h3>
+          <p>
+            We're concluded the submission period for financial assistance requests.</p><p>We hope to see you next year!
+          </p>
+
         </div>
       </section>
     </div>
