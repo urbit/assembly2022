@@ -251,9 +251,6 @@ export default function Home() {
               </div>
             );
           })}
-          <h1 className="text-lg text-center font-semibold self-center h-full w-full pt-16">
-            More TBA
-          </h1>
         </div>
       </section>
       <section
