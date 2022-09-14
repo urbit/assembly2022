@@ -1,4 +1,5 @@
 import Nav from '@components/Nav';
+import Head from 'next/head';
 import cn from 'classnames';
 import { useState } from 'react';
 
@@ -6,6 +7,21 @@ export default function Schedule() {
     const [current, setCurrent] = useState(0);
 
     return <div className="min-h-screen bg-purple min-w-screen flex flex-col items-center">
+        <Head>
+            <title>Schedule - Urbit Assembly 2022</title>
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:site" content="@urbit" />
+            <meta name="twitter:creator" content="@urbit" />
+            <meta name="twitter:title" content="Urbit Assembly 2022" />
+            <meta
+                name="twitter:description"
+                content="The second ever Urbit confluence, coming to you this year from Miami Beach."
+            />
+            <meta
+                name="twitter:image"
+                content="https://storage.googleapis.com/media.urbit.org/assembly/assembly-card-2.png"
+            />
+        </Head>
         <header
             className="flex items-center flex-col bg-cover sm:bg-contain bg-no-repeat bg-center w-full sticky top-0"
         >
