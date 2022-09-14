@@ -31,9 +31,9 @@ export default function Schedule() {
                 <h1 className="text-3xl font-regular tracking-widest uppercase">
                     Schedule
                 </h1>
-                <div className="flex space-x-4">
+                <div className="flex space-x-4 overflow-x-auto">
                     {["THUR 22", "FRI 23", "SAT 24", "SUN 25"].map((day, i) => (
-                        <div className={cn("uppercase font-bold border-2 border-white rounded-xl px-4 py-2 cursor-pointer",
+                        <div className={cn("shrink-0 uppercase font-bold border-2 border-white rounded-xl px-4 py-2 cursor-pointer",
                             "hover:bg-white hover:text-purple",
                             {
                                 "bg-white text-purple": i === current
