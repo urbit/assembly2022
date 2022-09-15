@@ -63,32 +63,53 @@ export default function Schedule() {
                     return (
                         <div className="w-full flex flex-col justify-center">
                             <div className="flex justify-between font-semibold pb-4">
-                                <p>{day.date}</p>
+                                <p className="text-xl">{day.date}</p>
                             </div>
                             <DottedRule />
                             <div className="w-full flex flex-col">
                                 {day.events.map((event) => {
                                     return (
                                         <>
-                                            <div className="w-full grid grid-cols-3 py-8 items-center justify-center border-white">
-                                                <p>{event.time}</p>
-                                                <div className="flex flex-col">
-                                                    <p>{event.content}</p>
-                                                    {event.location && (
-                                                        <p className={cn({
-                                                            "text-melon": event.location === "Star Stage",
-                                                            "text-green": event.location === "Galaxy Stage",
-                                                            "text-lavender": event.location === "Universe Stage"
-                                                        })}>{event.location}</p>
-                                                    )}
+                                            <div className="">
+                                                <div className="w-full grid grid-cols-3 py-6 items-top justify-center border-white">
+                                                    <p>{event.time}</p>
+                                                    <div className="flex flex-col items-top">
+                                                    { event.type && (
+                                                        <p className="pb-4">{event.type}</p>
+                                                        )}
+                                                        <p>{event.content}</p>
+                                                        {event.location && (
+                                                            <p className={cn({
+                                                                "text-melon": event.location === "Star Stage",
+                                                                "text-green": event.location === "Galaxy Stage",
+                                                                "text-lavender": event.location === "Universe Stage"
+                                                            })}>{event.location}</p>
+                                                        )}
+                                                    </div>
+                                                    {event.speaker && (
+                                                        <ul>
+                                                            {event.speaker.map((each) => (
+                                                                <li>{each}</li>
+                                                            ))}
+                                                        </ul>)}
                                                 </div>
-                                                {event.speaker && (
-                                                    <ul>
-                                                        {event.speaker.map((each) => (
-                                                            <li>{each}</li>
-                                                        ))}
-                                                    </ul>)}
+
+                                                { event.description && (
+
+                                                <div className="w-full grid grid-cols-3 pb-8 items-top justify-center border-white">
+                                                    <p></p>
+                                                    <div className="flex flex-col col-span-3 sm:col-span-2">
+                                                        <p className="pb-4">{event.description}</p>
+                                                    </div>
+                                                    <div>
+                                                    </div>
+                                                </div>
+                                                ) }
+
                                             </div>
+
+
+
                                             <DottedRule />
                                         </>
                                     );
@@ -113,7 +134,7 @@ const schedule = [
                 time: "2pm",
                 content:
                     "Beach pre-registration",
-                location: "?"
+                location: ""
             },
         ],
     },
@@ -146,7 +167,8 @@ const schedule = [
             },
             {
                 time: "4 – 4:30pm",
-                content: "Panel: Hardware",
+                type: "Panel",
+                content: "Hardware",
                 location: "Star Stage",
                 speaker: ["Ryan King",
                     "~hodzod-walrus",
@@ -160,7 +182,9 @@ const schedule = [
             },
             {
                 time: "5 – 6pm",
-                content: "Panel: New Institutions in the Network Stage",
+                type: "Panel",
+                content: "New Institutions in the Network Age",
+                description: "Blockchains, DAOs, and Urbit seek to re-architect networked computing with foundational software primitives.  What does this mean for the Information Age? If 90% of all data in the world was created in the last two years, is big data being diluted by its own accumulation? As artists and creators gravitate towards hyper-local networks, is a more provincial internet possible or preferable?",
                 location: "Galaxy Stage",
                 speaker: ["Riva Tez",
                     "Dryden Brown",
@@ -175,7 +199,8 @@ const schedule = [
             },
             {
                 time: "8:15 – 11pm",
-                content: "Cocktail Party"
+                content: "Cocktail Party",
+                location: "1111 Lincoln Road"
             }
         ],
     },
@@ -201,7 +226,8 @@ const schedule = [
             },
             {
                 time: "1 – 2pm",
-                content: "Panel: Forking the American Codebase",
+                type: "Panel",
+                content: "Forking the American Codebase",
                 location: "Star Stage",
                 speaker: ["Justin Murphy",
                     "Josh Rosenthal",
@@ -219,8 +245,10 @@ const schedule = [
             },
             {
                 time: "2 – 3pm",
-                content: "Panel: Art After Everything",
+                type: "Panel",
+                content: "Art After Everything",
                 location: "Star Stage",
+                description: "Artists and intellectuals are exiting universities, museums, and other sanctified institutional spaces en masse. In an age of aesthetic poverty, can the timeless principles of truth and beauty be re-imagined through digital self-sovereignty?  Why do the majority of art institutions still reject the existence and visual language of internet culture? Is beauty a public good? Should artists attempt to disentangle morality from aesthetics? And If the world is really ending, why not let the children touch the paintings?",
                 speaker: ["Galen Wolfe-Pauly",
                     "Petra Cortright",
                     "Asher Penn",
@@ -259,7 +287,9 @@ const schedule = [
             },
             {
                 time: "4:15 – 6pm",
-                content: "Panel: The Medium is the Message",
+                type: "Panel",
+                content: "The Medium is the Message",
+                description: "The public sphere has fragmented into walled gardens, some quite beautiful, owned by corporations like Reddit, Substack, Patreon, and legacy media companies. Can truly new subcultures and ideas grow in this soil, or are open new protocols needed? Does a healthy public discourse require a secure network for private discussion? What can and can't we say out loud today?",
                 location: "Galaxy Stage",
                 speaker: ["Sam Frank",
                     "Walter Kirn",
@@ -287,7 +317,8 @@ const schedule = [
             },
             {
                 time: "10:45 – 11:45am",
-                content: "Panel: The Timeless Way of Building",
+                type: "Panel",
+                content: "The Timeless Way of Building",
                 location: "Galaxy Stage",
                 speaker: ["Luke Stiles",
                     "Philip Monk",
@@ -303,7 +334,9 @@ const schedule = [
             { time: "12:30 – 1:30pm", content: "Lunch" },
             {
                 time: "1:30 – 2:30pm",
-                content: "Panel: Web3 Darwin Awards",
+                type: "Panel",
+                content: "Web3 Darwin Awards",
+                description: "An exploration of the dumbest-of-all-time uses for Blockchain, circling toward an exploration of what Blockchain is actually useful for. Is 365 million dollars for two large cheese pizzas overpriced? Was Jack Dorsey’s first tweet NFT underpriced?",
                 location: "Galaxy Stage",
                 speaker: ["Brian Crain",
                     "Lane Rettig",
