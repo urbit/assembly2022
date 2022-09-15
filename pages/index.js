@@ -556,9 +556,9 @@ const speakers = [
     image: "https://media.urbit.org/assembly/joshrosenthal.jpg",
   },
   {
-    name: "",
+    name: "Philip Galebach",
     patp: "~nilrun-mardux",
-    about: `<a target="_blank" href="https://twitter.com/AlephDao">@AlephDAO</a>`,
+    about: `CEO, <a target="_blank" href="https://twitter.com/AlephDao">@AlephDAO</a>`,
     image: "https://media.urbit.org/assembly/alephdao.jpg",
   },
   {
