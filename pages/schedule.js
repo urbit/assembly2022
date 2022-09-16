@@ -431,7 +431,7 @@ const schedule = [
         content: "Writing Uqbar Smart Contracts",
         location: "Universe Stage",
         speaker: ["~hodzod-walrus"],
-        description: "gm au, Uqbar's testnet is now live. Learn how to write smart contracts in Hoon straight from an Uqbar engineer."
+        description: "gm au, Uqbar's testnet is now live. Learn how to write smart contracts in Hoon directly from an Uqbar engineer."
       },
       {
         time: "4 – 4:30pm",
