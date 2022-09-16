@@ -347,13 +347,14 @@ const schedule = [
         speaker: ["Luke Stiles",
                   "Philip Monk",
                   "Ted Blackman",
-                  "Joe Bryan",
                   "~palfun-foslup"]
       },
       {
         time: "12 – 12:30pm",
-        content: "Uqbar Presentation",
-        location: "Galaxy Stage"
+        content: "Uqbar, Crypto's Execution Layer",
+        location: "Galaxy Stage",
+        speaker: ["~hocwyn-tipwex"],
+        description: "The Uqbar Network combines ZK verification of smart contracts with the robust power of programming in a functional p2p operating system. This demo will unveil Uqbar's testnet, where smart contracts running Urbit's native Hoon language will give cryptocurrency the power of Urbit execution, and give all Urbit apps native blockchain access."
       },
       { time: "12:30 – 1:30pm", content: "Lunch" },
       {
@@ -369,7 +370,7 @@ const schedule = [
       },
       {
         time: "2 – 2:30pm",
-        content: "Doccords – “Docstrings for Hoon”",
+        content: "Doccords: Docstrings for Hoon",
         location: "Universe Stage"
       },
       {
@@ -384,7 +385,7 @@ const schedule = [
       },
       {
         time: "3 – 3:15pm",
-        content: "Dalten Announcement",
+        content: "Special Announcement from the Dalten Collective",
         location: "Star Stage"
       },
       {
@@ -397,12 +398,14 @@ const schedule = [
         time: "3:15 – 4pm",
         content: "Getting Involved with Urbit",
         location: "Star Stage",
-        speaker: ["~sarlev-sarsen"]
+        speaker: ["~sarlev-sarsen", "~lagrev-nocfep"]
       },
       {
         time: "3:15 – 4pm",
         content: "Writing Uqbar Smart Contracts",
-        location: "Universe Stage"
+        location: "Universe Stage",
+        speaker: ["~hodzod-walrus"],
+        description: "Uqbar's testnet is now live (gm au). Learn how to write smart contracts in Hoon straight from an Uqbar engineer."
       },
       {
         time: "4 – 4:30pm",
