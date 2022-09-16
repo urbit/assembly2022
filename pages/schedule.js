@@ -143,16 +143,10 @@ const schedule = [
     events: [
       { time: "12 - 2pm", content: "Registration and Coffee" },
       {
-        time: "2 – 2:15pm",
-        content: "Opening Remarks",
+        time: "2 – 2:30pm",
+        content: "Welcome to Assembly",
         location: "Galaxy Stage",
         speaker: ["Josh Lehman"]
-      },
-      {
-        time: "2:15 – 3pm",
-        content: "Opening Keynote",
-        location: "Galaxy Stage",
-        speaker: ["Riva Tez"]
       },
       {
         time: "3:15 – 4pm",
@@ -161,9 +155,9 @@ const schedule = [
         description: "Several hardware companies give lightning talks that showcase what they've been working on."
       },
       {
-        time: "3:15 – 3:30pm",
+        time: "3:10pm",
         content: "DAOs in El Salvador",
-        location: "Universe Stage",
+        location: "Star Stage",
         speaker: ["Stephen Galebach"]
       },
       {
@@ -274,7 +268,9 @@ const schedule = [
       {
         time: "2 – 2:45pm",
         content: "The Clash of the US Regulators",
-        location: "Universe Stage"
+        location: "Universe Stage",
+        speaker: ["Daniel Tramel Stabile", "Phillip Leon Euell", "Kim Prior"],
+        description: "United States regulators are engaged in a turf war that ultimately will determine who has dominant jurisdiction over digital asset businesses. This talk will examine the current regulatory state of affairs, and what we can expect for the future. "
       },
       {
         time: "2:45 – 3:15pm",
@@ -307,7 +303,9 @@ const schedule = [
       {
         time: "5:15 – 5:45pm",
         content: "poetrygrifting + voiding",
-        location: "Universe Stage"
+        location: "Universe Stage",
+        speaker: ["@poetrygrifter", "@vincentevoid"],
+        description: "poems about being highly online interspersed with music"
       },
       {
         time: "4:15 – 6pm",
@@ -356,7 +354,7 @@ const schedule = [
         speaker: ["~hocwyn-tipwex"],
         description: "The Uqbar Network combines ZK verification of smart contracts with the robust power of programming in a functional p2p operating system. This demo will unveil Uqbar's testnet, where smart contracts running Urbit's native Hoon language will give cryptocurrency the power of Urbit execution, and give all Urbit apps native blockchain access."
       },
-      { time: "12:30 – 1:30pm", content: "Lunch" },
+      { time: "12:30 – 1:30pm", content: "Lunch", description: "(provided)" },
       {
         time: "1:30 – 2:30pm",
         type: "Panel",
@@ -371,17 +369,21 @@ const schedule = [
       {
         time: "2 – 2:30pm",
         content: "Doccords: Docstrings for Hoon",
-        location: "Universe Stage"
+        location: "Universe Stage",
+        description: "This is a preview of a new Hoon feature which allows you to attach formal comments to arbitrary Hoon expressions.",
+        speaker: ["~datnut-pollen"]
       },
       {
         time: "2:30 – 3pm",
         content: "Tirrel Presentation",
-        location: "Star Stage"
+        location: "Star Stage",
+        speaker: ["Logan Allen", "Christian Langalis"]
       },
       {
         time: "2:30 – 3pm",
-        content: "The Sovereign Tech Stack by Odysseas",
-        location: "Universe Stage"
+        content: "The Sovereign Tech Stack",
+        location: "Universe Stage",
+        speaker: ["~sipsen-pilser"]
       },
       {
         time: "3 – 3:15pm",
@@ -390,7 +392,7 @@ const schedule = [
       },
       {
         time: "3:15 – 4pm",
-        content: "Sponsor Keynote",
+        content: "Keeping software on Urbit human-friendly for the next century ",
         location: "Galaxy Stage",
         speaker: ["Nevin Freeman"]
       },
@@ -398,7 +400,8 @@ const schedule = [
         time: "3:15 – 4pm",
         content: "Getting Involved with Urbit",
         location: "Star Stage",
-        speaker: ["~sarlev-sarsen", "~lagrev-nocfep"]
+        speaker: ["~sarlev-sarsen", "~lagrev-nocfep"],
+        description: "Excited by what you've seen throughout Assembly? Learn about the next steps you can take to join the Urbit ecosystem."
       },
       {
         time: "3:15 – 4pm",
@@ -418,10 +421,10 @@ const schedule = [
         location: "Universe Stage"
       },
       {
-        time: "4:30 – 5:30pm",
-        content: "Assembly Closing",
+        time: "4:45 – 5:30pm",
+        content: "Closing Keynote",
         location: "Galaxy Stage",
-        speaker: ["Josh Lehman"]
+        speaker: ["Riva Tez"]
       }
     ],
   }
