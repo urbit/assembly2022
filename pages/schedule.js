@@ -338,8 +338,9 @@ const schedule = [
             },
             {
                 time: "12 – 12:30pm",
-                content: "Uqbar Presentation",
-                location: "Galaxy Stage"
+                content: "Uqbar Demo",
+                location: "Galaxy Stage",
+                speaker:["~hocwyn-tipwex"]
             },
             { time: "12:30 – 1:30pm", content: "Lunch" },
             {
@@ -395,7 +396,8 @@ const schedule = [
             {
                 time: "3:15 – 4pm",
                 content: "Writing Uqbar Smart Contracts",
-                location: "Universe Stage"
+                location: "Universe Stage",
+                speaker: ["~hodzod-walrus"]
             },
             {
                 time: "4 – 4:30pm",

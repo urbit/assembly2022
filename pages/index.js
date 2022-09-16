@@ -68,102 +68,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section
-        className="bg-lavender flex flex-col space-y-16 py-32 items-center px-8 lg:px-0"
-        id="sponsors"
-      >
-        <h1 className="text-3xl font-regular tracking-widest uppercase text-center">
-          Brought to you by
-        </h1>
-
-        <div className="flex items-center justify-center flex-wrap max-w-5xl">
-          <div className="text-center items-center p-8 sm:p-10 px-14">
-            <a href="https://urbit.org">
-              <img src="https://storage.googleapis.com/media.urbit.org/assembly/Urbit.svg" />
-            </a>
-          </div>
-          <div className="text-center items-center p-8 sm:p-10 px-14">
-            <a href="https://tlon.io">
-              <img src="https://storage.googleapis.com/media.urbit.org/assembly/Tlon.svg" />
-            </a>
-          </div>
-          <div className="text-center items-center p-8 sm:p-10 px-14">
-            <a href="https://uqbar.network">
-              <img src="https://storage.googleapis.com/media.urbit.org/assembly/Uqbar.svg" />
-            </a>
-          </div>
-          <div className="text-center items-center p-8 sm:p-10 px-14">
-            <a href="https://holium.com">
-              <img src="https://storage.googleapis.com/media.urbit.org/assembly/Holium.svg" />
-            </a>
-          </div>
-          <div className="text-center items-center p-8 sm:p-10  px-14">
-            <a href="https://third.earth">
-              <img src="https://storage.googleapis.com/media.urbit.org/assembly/thirdearth.svg" />
-            </a>
-          </div>
-          <div className="text-center items-center p-8 sm:p-10  px-14">
-            <a href="https://sia.tech">
-              <img src="https://storage.googleapis.com/media.urbit.org/assembly/Sia.svg" />
-            </a>
-          </div>
-          <div className="text-center items-center p-8 sm:p-10  px-14">
-            <a href="https://assembly.capital">
-              <img src="https://storage.googleapis.com/media.urbit.org/assembly/assembly-capital.svg" />
-            </a>
-          </div>
-          <div className="text-center items-center p-8 sm:p-10  px-10">
-            <a href="https://reserve.org">
-              <img src="https://storage.googleapis.com/media.urbit.org/assembly/reserve.svg" />
-            </a>
-          </div>
-          <div className="text-center items-center p-8 sm:p-10  px-10 w-56">
-            <a href="https://foam.space">
-              <img src="https://storage.googleapis.com/media.urbit.org/assembly/foam-logo4.png" />
-            </a>
-          </div>
-          <div className="text-center items-center p-8 sm:p-10  px-10">
-            <a href="https://tirrel.io">
-              <img src="https://storage.googleapis.com/media.urbit.org/assembly/tirrel.svg" />
-            </a>
-          </div>
-          <div className="text-center items-center p-8 sm:p-10  px-10">
-            <a href="https://ledger.co">
-              <img src="https://storage.googleapis.com/media.urbit.org/assembly/ledger.svg" />
-            </a>
-          </div>
-          <div className="text-center items-center p-8 sm:p-10  px-10 w-56">
-            <a href="https://coinfund.io">
-              <img src="https://storage.googleapis.com/media.urbit.org/assembly/coinfund.png" />
-            </a>
-          </div>
-          <div className="text-center items-center p-8 sm:p-10  px-10 w-56">
-            <a href="https://vienna.earth">
-              <img src="https://storage.googleapis.com/media.urbit.org/assembly/vienna.svg" />
-            </a>
-          </div>
-          {/*
-                    <div className="text-center items-center p-8 sm:p-10  px-10 opacity-40">
-            <div className="p-4 border-dashed border border-black">
-              <p className>to be announced</p>
-            </div>
-          </div>
-          */}
-        </div>
-
-        {/*
-        <p className="center">
-          Inquire regarding sponsorship opportunities at{" "}
-          <a
-            className="font-semibold border-b"
-            href="mailto:assembly@urbit.org"
-          >
-            assembly@urbit.org
-          </a>
-        </p>
-
-      */}
-      </section>
+    
 
       <section
         className="bg-green flex flex-col space-y-16 py-32 items-center px-8 lg:px-0"
@@ -276,6 +181,103 @@ export default function Home() {
           </p>
 
         </div>
+      </section>
+
+  <section
+        className="bg-lavender flex flex-col space-y-16 py-32 items-center px-8 lg:px-0"
+        id="sponsors"
+      >
+        <h1 className="text-3xl font-regular tracking-widest uppercase text-center">
+          Brought to you by
+        </h1>
+
+        <div className="flex items-center justify-center flex-wrap max-w-5xl">
+          <div className="text-center items-center p-8 sm:p-10 px-14">
+            <a href="https://urbit.org">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/Urbit.svg" />
+            </a>
+          </div>
+          <div className="text-center items-center p-8 sm:p-10 px-14">
+            <a href="https://tlon.io">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/Tlon.svg" />
+            </a>
+          </div>
+          <div className="text-center items-center p-8 sm:p-10 px-14">
+            <a href="https://uqbar.network">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/Uqbar.svg" />
+            </a>
+          </div>
+          <div className="text-center items-center p-8 sm:p-10 px-14">
+            <a href="https://holium.com">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/Holium.svg" />
+            </a>
+          </div>
+          <div className="text-center items-center p-8 sm:p-10  px-14">
+            <a href="https://third.earth">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/thirdearth.svg" />
+            </a>
+          </div>
+          <div className="text-center items-center p-8 sm:p-10  px-14">
+            <a href="https://sia.tech">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/Sia.svg" />
+            </a>
+          </div>
+          <div className="text-center items-center p-8 sm:p-10  px-14">
+            <a href="https://assembly.capital">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/assembly-capital.svg" />
+            </a>
+          </div>
+          <div className="text-center items-center p-8 sm:p-10  px-10">
+            <a href="https://reserve.org">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/reserve.svg" />
+            </a>
+          </div>
+          <div className="text-center items-center p-8 sm:p-10  px-10 w-56">
+            <a href="https://foam.space">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/foam-logo4.png" />
+            </a>
+          </div>
+          <div className="text-center items-center p-8 sm:p-10  px-10">
+            <a href="https://tirrel.io">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/tirrel.svg" />
+            </a>
+          </div>
+          <div className="text-center items-center p-8 sm:p-10  px-10">
+            <a href="https://ledger.co">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/ledger.svg" />
+            </a>
+          </div>
+          <div className="text-center items-center p-8 sm:p-10  px-10 w-56">
+            <a href="https://coinfund.io">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/coinfund.png" />
+            </a>
+          </div>
+          <div className="text-center items-center p-8 sm:p-10  px-10 w-56">
+            <a href="https://vienna.earth">
+              <img src="https://storage.googleapis.com/media.urbit.org/assembly/vienna.svg" />
+            </a>
+          </div>
+          {/*
+                    <div className="text-center items-center p-8 sm:p-10  px-10 opacity-40">
+            <div className="p-4 border-dashed border border-black">
+              <p className>to be announced</p>
+            </div>
+          </div>
+          */}
+        </div>
+
+        {/*
+        <p className="center">
+          Inquire regarding sponsorship opportunities at{" "}
+          <a
+            className="font-semibold border-b"
+            href="mailto:assembly@urbit.org"
+          >
+            assembly@urbit.org
+          </a>
+        </p>
+
+      */}
       </section>
     </div>
   );
