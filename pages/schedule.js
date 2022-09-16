@@ -363,6 +363,7 @@ const schedule = [
         speaker: ["Luke Stiles",
                   "Philip Monk",
                   "Ted Blackman",
+                  "Joe Bryan",
                   "~palfun-foslup"]
       },
       {
