@@ -4,42 +4,31 @@ import Footer from "@components/Footer";
 
 export default function Home() {
   return (
-    <div className="min-h-screen min-w-screen flex flex-col">
-
-
-        {/* Hero + Nav */}
-
-
-
-        <header
-          className="flex items-center flex-col bg-cover sm:bg-contain bg-no-repeat bg-center"
-        >
+    <div className="min-h-screen min-w-screen flex flex-col relative">
+      {/* Hero + Nav */}
+      <header
+        className="flex items-center flex-col bg-cover sm:bg-contain bg-no-repeat bg-center sticky top-0"
+      >
 
         <div className="w-full flex text-center justify-center bg-black">
-        <a
-          href="https://urbit.org"
-          className="w-100 left-2 top-1 flex sm:block sm:absolute"
-        >
-          <img
-            src="https://media.urbit.org/assembly/urbit-sig-108.png"
-            width="48"
-            height="48"
-          />
-        </a>
+          <a
+            href="https://urbit.org"
+            className="w-100 left-2 top-1 flex sm:block sm:absolute"
+          >
+            <img
+              src="https://media.urbit.org/assembly/urbit-sig-108.png"
+              width="48"
+              height="48"
+            />
+          </a>
         </div>
 
 
         <Nav />
-
-        <video autoPlay muted loop playsInline id="heroVideo" className="aspect-video">    
-
-          <source src="https://storage.googleapis.com/media.urbit.org/assembly/16-9_landing.mp4" type="video/mp4"/>
-        </video>
-
-
-        </header>
-
-
+      </header>
+      <video autoPlay muted loop playsInline id="heroVideo" className="aspect-video">
+        <source src="https://storage.googleapis.com/media.urbit.org/assembly/16-9_landing.mp4" type="video/mp4" />
+      </video>
       <div className="container items-center mx-auto">
         <Head>
           <title>Urbit Assembly 2022</title>
@@ -79,7 +68,122 @@ export default function Home() {
         </div>
       </section>
 
+    
+
       <section
+        className="bg-green flex flex-col space-y-16 py-32 items-center px-8 lg:px-0"
+        id="about"
+      >
+        <h1 className="text-3xl font-regular tracking-widest uppercase">
+          About
+        </h1>
+        <div className="flex flex-col lg:flex-row space-y-8 lg:space-x-16 lg:space-y-0 justify-center">
+          <div className="flex flex-col space-y-4 basis-1/3">
+            <p className="">
+              Urbit Assembly 2022 is the second ever Urbit confluence coming to
+              you this year from Miami Beach.
+            </p>
+            <p>
+              Last year we showcased the release of software distribution which
+              enabled other developers to use Urbit as infrastructure for their
+              creations. This year we’ll be showcasing an entire ecosystem of{" "}
+              <b>New World Energy.</b>
+            </p>
+            <p>Expect to find:</p>
+            <ul className="list-disc list-inside">
+              <li>Product and tech launches from the bleeding edge</li>
+              <li>
+                Panels from visionary technologists and unhinged cultural
+                critics
+              </li>
+              <li>Talks from the most distinctive voices in technology</li>
+              <li>Beach hangouts</li>
+              <li>Developer workshops</li>
+              <li>Parties, of course</li>
+            </ul>
+            <p>
+              As with last year, little of this will be recorded. You'll just
+              have to be there.
+            </p>
+          </div>
+          <div className="flex flex-col space-y-8 basis-1/4">
+            <h2 className="text-3xl font-regular">Location</h2>
+            <p>
+              1111 Lincoln Road
+              <br />
+              7th Floor
+              <br />
+              Miami Beach, FL 33139
+            </p>
+            <h2 className="text-3xl font-regular">Dates</h2>
+            <p>September 22nd, 23rd, 24th, and 25th</p>
+            <p class="italic">
+              Note on Covid-19: Do not come if you have Covid. No testing or
+              proof-of-vaccine will be required for entry.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section
+        className="bg-melon py-32 px-8 lg:px-0 flex flex-col space-y-16 items-center"
+        id="speakers"
+      >
+        <h1 className="text-3xl font-regular tracking-widest uppercase">
+          Speakers
+        </h1>
+        <div className="flex flex-wrap max-w-screen-lg items-start">
+          {speakers.map((speaker) => {
+            return (
+              <div className="basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4 center text-center items-center justify-center p-8">
+                <img className="rounded-xl w-full" src={speaker.image} />
+                <p className="font-semibold pt-2">{speaker.name}</p>
+                <p
+                  className="font-monospace my-1 text-sm font-semibold"
+                  style={{ color: "#853738" }}
+                  dangerouslySetInnerHTML={{
+                    __html: `<a target="_blank" href=https://urbit.org/ids/${speaker.patp}>${speaker.patp}</a>`,
+                  }}
+                ></p>
+                <span
+                  id="team"
+                  dangerouslySetInnerHTML={{ __html: speaker.about }}
+                />
+              </div>
+            );
+          })}
+        </div>
+      </section>
+      <section
+        className="bg-grey text-melon py-32 px-8 lg:px-0 flex flex-col space-y-16 items-center"
+        id="contact"
+      >
+        <h1 className="text-3xl font-regular tracking-widest uppercase">
+          Contact
+        </h1>
+        <div className="w-full max-w-screen-md flex flex-col space-y-8 items-left">
+          <h3 className="font-bold">Questions?</h3>
+          <p>
+            Feel free to reach out if you have any questions regarding Assembly
+            2022.
+          </p>
+          <p>
+            <a
+              className="font-semibold border-b"
+              href="mailto:assembly@urbit.org"
+            >
+              assembly@urbit.org
+            </a>
+          </p>
+
+          <h3 className="font-bold pt-8">Financial Assistance</h3>
+          <p>
+            We're concluded the submission period for financial assistance requests.</p><p>We hope to see you next year!
+          </p>
+
+        </div>
+      </section>
+
+  <section
         className="bg-lavender flex flex-col space-y-16 py-32 items-center px-8 lg:px-0"
         id="sponsors"
       >
@@ -175,201 +279,9 @@ export default function Home() {
 
       */}
       </section>
-
-      <section
-        className="bg-green flex flex-col space-y-16 py-32 items-center px-8 lg:px-0"
-        id="about"
-      >
-        <h1 className="text-3xl font-regular tracking-widest uppercase">
-          About
-        </h1>
-        <div className="flex flex-col lg:flex-row space-y-8 lg:space-x-16 lg:space-y-0 justify-center">
-          <div className="flex flex-col space-y-4 basis-1/3">
-            <p className="">
-              Urbit Assembly 2022 is the second ever Urbit confluence coming to
-              you this year from Miami Beach.
-            </p>
-            <p>
-              Last year we showcased the release of software distribution which
-              enabled other developers to use Urbit as infrastructure for their
-              creations. This year we’ll be showcasing an entire ecosystem of{" "}
-              <b>New World Energy.</b>
-            </p>
-            <p>Expect to find:</p>
-            <ul className="list-disc list-inside">
-              <li>Product and tech launches from the bleeding edge</li>
-              <li>
-                Panels from visionary technologists and unhinged cultural
-                critics
-              </li>
-              <li>Talks from the most distinctive voices in technology</li>
-              <li>Beach hangouts</li>
-              <li>Developer workshops</li>
-              <li>Parties, of course</li>
-            </ul>
-            <p>
-              As with last year, little of this will be recorded. You'll just
-              have to be there.
-            </p>
-          </div>
-          <div className="flex flex-col space-y-8 basis-1/4">
-            <h2 className="text-3xl font-regular">Location</h2>
-            <p>
-              1111 Lincoln Road
-              <br />
-              7th Floor
-              <br />
-              Miami Beach, FL 33139
-            </p>
-            <h2 className="text-3xl font-regular">Dates</h2>
-            <p>September 22nd, 23rd, 24th, and 25th</p>
-            <p class="italic">
-              Note on Covid-19: Do not come if you have Covid. No testing or
-              proof-of-vaccine will be required for entry.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section
-        className="bg-melon py-32 px-8 lg:px-0 flex flex-col space-y-16 items-center"
-        id="speakers"
-      >
-        <h1 className="text-3xl font-regular tracking-widest uppercase">
-          Speakers
-        </h1>
-        <div className="flex flex-wrap max-w-screen-lg items-start">
-          {speakers.map((speaker) => {
-            return (
-              <div className="basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4 center text-center items-center justify-center p-8">
-                <img className="rounded-xl w-full" src={speaker.image} />
-                <p className="font-semibold pt-2">{speaker.name}</p>
-                <p
-                  className="font-monospace my-1 text-sm font-semibold"
-                  style={{ color: "#853738" }}
-                  dangerouslySetInnerHTML={{
-                    __html: `<a target="_blank" href=https://urbit.org/ids/${speaker.patp}>${speaker.patp}</a>`,
-                  }}
-                ></p>
-                <span
-                  id="team"
-                  dangerouslySetInnerHTML={{ __html: speaker.about }}
-                />
-              </div>
-            );
-          })}
-        </div>
-      </section>
-      <section
-        className="bg-purple text-white py-32 px-8 lg:px-0 flex flex-col items-center justify-center"
-        id="schedule"
-      >
-        <div className="max-w-screen-md w-full flex flex-col space-y-16 items-center">
-          <h1 className="text-3xl font-regular tracking-widest uppercase">
-            Schedule
-          </h1>
-          {Object.values(schedule).map((day, i) => {
-            return (
-              <div className="w-full">
-                <div className="flex justify-between font-semibold uppercase pb-2">
-                  <p>Day {i + 1}</p>
-                  <p>{day.date}</p>
-                </div>
-                <hr className="border-2 w-full" />
-                <div className="flex flex-col space-y-2 pt-2">
-                  {day.events.map((event) => {
-                    return (
-                      <div className="flex space-x-4">
-                        <p className="w-20">{event.time}</p>
-                        <p>{event.content}</p>
-                      </div>
-                    );
-                  })}
-                  {<p className="pt-4">More details soon.</p>}
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      </section>
-      <section
-        className="bg-grey text-melon py-32 px-8 lg:px-0 flex flex-col space-y-16 items-center"
-        id="contact"
-      >
-        <h1 className="text-3xl font-regular tracking-widest uppercase">
-          Contact
-        </h1>
-        <div className="w-full max-w-screen-md flex flex-col space-y-8 items-left">
-          <h3 className="font-bold">Questions?</h3>
-          <p>
-            Feel free to reach out if you have any questions regarding Assembly
-            2022.
-          </p>
-          <p>
-            <a
-              className="font-semibold border-b"
-              href="mailto:assembly@urbit.org"
-            >
-              assembly@urbit.org
-            </a>
-          </p>
-
-          <h3 className="font-bold pt-8">Financial Assistance</h3>
-          <p>
-            We're concluded the submission period for financial assistance requests.</p><p>We hope to see you next year!
-          </p>
-
-        </div>
-      </section>
     </div>
   );
 }
-
-const schedule = {
-  one: {
-    date: "Thursday 9/22",
-    events: [
-      {
-        time: "2:00pm",
-        content:
-          "Beach pre-registration — skip the lines on Friday and get your tan on, towels provided.",
-      },
-    ],
-  },
-  two: {
-    date: "Friday 9/23",
-    events: [
-      { time: "1:00pm", content: "Doors open" },
-      { time: "3:00pm", content: "Keynote" },
-      { time: "4:00pm", content: "Panel" },
-      { time: "7:00pm", content: "Cocktail Party" },
-    ],
-    details: true,
-  },
-  three: {
-    date: "Saturday 9/24",
-    events: [
-      { time: "9:00am", content: "Doors open" },
-      { time: "10am", content: "Talks / Demos" },
-      { time: "12pm", content: "Lunch" },
-      { time: "1:30pm", content: "Workshop & Lightning Talks" },
-      { time: "4pm", content: "Panel" },
-      { time: "9pm", content: "After Party" },
-    ],
-    details: true,
-  },
-  four: {
-    date: "Sunday 9/25",
-    events: [
-      { time: "9:00am", content: "Doors open" },
-      { time: "10am", content: "Talks / Demos" },
-      { time: "12pm", content: "Lunch" },
-      { time: "1:30pm", content: "Workshop & Lightning Talks" },
-      { time: "4pm", content: "Closing Talk" },
-      { time: "5pm", content: "End" },
-    ],
-    details: true,
-  },
-};
 
 const speakers = [
   {
@@ -396,7 +308,7 @@ const speakers = [
     about: "Executive Director, Urbit Foundation",
     image: "https://media.urbit.org/assembly/josh.png",
   },
-    {
+  {
     name: "Walter Kirn",
     patp: "",
     about: `<a target="_blank" href="https://twitter.com/walterkirn">@walterkirn</a><br>Writer`,
@@ -427,7 +339,7 @@ const speakers = [
     about: `Artist`,
     image: "https://media.urbit.org/assembly/petra.jpg",
   },
-    {
+  {
     name: "Katherine Dee",
     patp: "",
     about: `<a target="_blank" href="https://twitter.com/default_friend">@default_friend</a><br>Writer, <a target="_blank" href="https://defaultfriend.substack.com/">Default Wisdom</a>`,
@@ -552,7 +464,7 @@ const speakers = [
   {
     name: "Josh Rosenthal, PhD",
     patp: "",
-    about: `Partner, <a target="_blank" href="https://www.go6ixthevent.com/">Sixth Event</a> &amp; <a target="_blank" href="https://www.https://www.gonarwhalventures.com/.com/">Narwhal Ventures</a>` ,
+    about: `Partner, <a target="_blank" href="https://www.go6ixthevent.com/">Sixth Event</a> &amp; <a target="_blank" href="https://www.https://www.gonarwhalventures.com/.com/">Narwhal Ventures</a>`,
     image: "https://media.urbit.org/assembly/joshrosenthal.jpg",
   },
   {

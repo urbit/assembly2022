@@ -8,6 +8,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  @apply antialiased
 }
 
 * {
@@ -39,6 +40,3 @@ ul li {
 #team a {
   @apply font-medium border-b
 }
-
-#heroVideo {
-  }
