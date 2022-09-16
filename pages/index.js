@@ -567,4 +567,10 @@ const speakers = [
     about: `Founder and Head Teacher, <a target="_blank" href="https://www.centerformindfullearning.org/">Center for Mindful Learning</a>`,
     image: "https://media.urbit.org/assembly/soryu.jpg",
   },
+  {
+    name: "Finn Brown",
+    patp: "",
+    about: `Co-founder, <a target="_blank" href="https://www.vienna.earth/">Vienna Hypertext</a>`,
+    image: "https://media.urbit.org/assembly/finn.jpg",
+  },
 ];
