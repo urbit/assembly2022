@@ -131,11 +131,26 @@ const schedule = [
         date: "Thursday 22nd",
         events: [
             {
+                time: "9am",
+                content:
+                    "Muscle Beach Meetup",
+                location: "Muscle Beach South Beach",
+                description: "Come hang out, lift weights, and get some sun. Everything is free, non-gigachads are welcome."
+            },
+            {
                 time: "2pm",
                 content:
                     "Beach pre-registration",
                 location: ""
             },
+            {
+                time: "6–8:30pm",
+                content:
+                    "Cardano Meetup",
+                location: "300 NE 2nd Ave, Miami FL",
+                description: "Join ~lagrev-nocfep, ~ripnyt-ripynt, and Cardano-side contributors like Adam Rusch (ADAO) and Thomas DiMatteo to discuss Structures of Decentralized Governance and Computing at Miami-Dade University.  Parking is available at Miami Dade Wolfson Student Parking, 500 NE 2nd Ave, Miami, FL 33130.  Inform attendant that you are attending a meetup at the MDC BIT Center."
+            }
+
         ],
     },
     {
