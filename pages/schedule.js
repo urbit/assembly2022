@@ -131,11 +131,26 @@ const schedule = [
     date: "Thursday 22nd",
     events: [
       {
+        time: "9am",
+        content:
+        "Muscle Beach Meetup",
+        location: "Muscle Beach South Beach",
+        description: "Come hang out, lift weights, and get some sun. Everything is free, non-gigachads are welcome."
+      },
+      {
         time: "2pm",
         content:
         "Beach pre-registration",
         location: ""
       },
+      {
+        time: "6–8:30pm",
+        content:
+        "Cardano Meetup",
+        location: "300 NE 2nd Ave, Miami FL",
+        description: "Join ~lagrev-nocfep, ~ripnyt-ripynt, and Cardano-side contributors like Adam Rusch (ADAO) and Thomas DiMatteo to discuss Structures of Decentralized Governance and Computing at Miami-Dade University.  Parking is available at Miami Dade Wolfson Student Parking, 500 NE 2nd Ave, Miami, FL 33130.  Inform attendant that you are attending a meetup at the MDC BIT Center."
+      }
+
     ],
   },
   {
@@ -251,7 +266,9 @@ const schedule = [
       },
       {
         time: "1:30 – 2pm",
-        content: "Dalten talk",
+        content: "Middleware",
+        speaker: ["~wicrum-wicrun"],
+        location: "Universe Stage"
       },
       {
         time: "2 – 3pm",
@@ -276,12 +293,13 @@ const schedule = [
         time: "2:45 – 3:15pm",
         content: "The Sovereign Family",
         location: "Universe Stage",
-        speakers: ["Stephen Galebach"]
+        speaker: ["Stephen Galebach"]
       },
       {
         time: "3 – 4pm",
         content: "Hackathon Demo Projects",
-        location: "Star Stage"
+        location: "Star Stage",
+        description: "A new cohort of Urbit developers have been busy building for the last six weeks. See what they've made and vote for best in show!"
       },
       {
         time: "3:15 – 3:45pm",
@@ -293,12 +311,15 @@ const schedule = [
       {
         time: "4:15 – 4:45pm",
         content: "The Future of Building UI on Urbit",
-        location: "Universe Stage"
+        location: "Universe Stage",
+        speaker: ["~nocsyx-lassul"],
+        description: "An open forum to discuss and discover what we can do to bring better UI primitives and tooling to Urbit. The goal is to come away with a handful of paths for people to start chasing. Please come with questions, points of discussion, and any thoughts you have in this domain."
       },
       {
         time: "4:45 – 5:15pm",
         content: "Listening to Urbit Data",
-        location: "Universe Stage"
+        location: "Universe Stage",
+        speaker: ["~witfyl-ravped"]
       },
       {
         time: "5:15 – 5:45pm",
@@ -317,11 +338,12 @@ const schedule = [
                   "Walter Kirn",
                   "Anna Khachiyan",
                   "Alex Lee Moyer",
+                  "Katherine Dee",
                   "Noah Kumin"]
       },
       {
         time: "6 – 6:15pm",
-        content: "Day 2 Closing",
+        content: "Closing Remarks",
         location: "Galaxy Stage",
         speaker: ["Josh Lehman"]
       }
@@ -345,7 +367,8 @@ const schedule = [
         speaker: ["Luke Stiles",
                   "Philip Monk",
                   "Ted Blackman",
-                  "~palfun-foslup"]
+                  "~palfun-foslup"],
+        description: "The Core Devs weigh in on building Urbit."
       },
       {
         time: "12 – 12:30pm",
@@ -359,7 +382,7 @@ const schedule = [
         time: "1:30 – 2:30pm",
         type: "Panel",
         content: "Web3 Darwin Awards",
-        description: "An exploration of the dumbest-of-all-time uses for Blockchain, circling toward an exploration of what Blockchain is actually useful for. Is 365 million dollars for two large cheese pizzas overpriced? Was Jack Dorsey’s first tweet NFT underpriced?",
+        description: "An exploration of the dumbest-of-all-time uses for Blockchain, circling toward an exploration of what Blockchains are actually useful for and what's still needed.",
         location: "Galaxy Stage",
         speaker: ["Brian Crain",
                   "Lane Rettig",
@@ -408,12 +431,13 @@ const schedule = [
         content: "Writing Uqbar Smart Contracts",
         location: "Universe Stage",
         speaker: ["~hodzod-walrus"],
-        description: "Uqbar's testnet is now live (gm au). Learn how to write smart contracts in Hoon straight from an Uqbar engineer."
+        description: "gm au, Uqbar's testnet is now live. Learn how to write smart contracts in Hoon straight from an Uqbar engineer."
       },
       {
         time: "4 – 4:30pm",
         content: "Hackathon Awards",
-        location: "Star Stage"
+        location: "Star Stage",
+        description: "The votes are in, let's see who won."
       },
       {
         time: "4 – 4:30pm",
