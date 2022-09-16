@@ -160,8 +160,14 @@ const schedule = [
                 location: "Star Stage"
             },
             {
-                time: "3:15 – 4pm",
-                content: "Flappy Bird",
+                time: "3:15 – 3:30pm",
+                content: "DAOs in El Salvador",
+                location: "Universe Stage",
+                speaker: ["Stephen Galebach"]
+            },
+            {
+                time: "3:30 – 4pm",
+                content: "%flappy-bird workshop",
                 location: "Universe Stage",
                 speaker: ["N E Davis"]
             },
@@ -174,11 +180,6 @@ const schedule = [
                     "~hodzod-walrus",
                     "~mopfel-winrux",
                     "~lomped-firser"]
-            },
-            {
-                time: "4 – 4:30pm",
-                content: "Long-term lockout: Renter economies in the smart home",
-                location: "Universe Stage"
             },
             {
                 time: "5 – 6pm",
@@ -236,7 +237,7 @@ const schedule = [
             },
             {
                 time: "1 – 1:30pm",
-                content: "Vienna Hypertext Presentation",
+                content: "How to Overthrow the Government using Vienna Hypertext",
                 location: "Universe Stage"
             },
             {
@@ -257,13 +258,20 @@ const schedule = [
             {
                 time: "2 – 2:45pm",
                 content: "The Clash of the US Regulators",
-                location: "Universe Stage"
+                location: "Universe Stage",
+                speaker: ["Daniel Stabile", "Kim Prior"]
             },
             {
                 time: "2:45 – 3:15pm",
                 content: "The Sovereign Family",
                 location: "Universe Stage",
-                speakers: ["Stephen Galebach"]
+                speaker: ["Stephen Galebach"]
+            },
+            {
+                time: "3:15 – 3:45pm",
+                content: "Long-term lockout: Renter economies in the smart home",
+                location: "Universe Stage",
+                speaker: ["~pilwyc-fastec"]
             },
             {
                 time: "3 – 4pm",
@@ -273,7 +281,8 @@ const schedule = [
             {
                 time: "4:15 – 4:45pm",
                 content: "The Future of Building UI on Urbit",
-                location: "Universe Stage"
+                location: "Universe Stage",
+                speaker: ["~nocsyx-lassul"]
             },
             {
                 time: "4:45 – 5:15pm",
@@ -283,7 +292,8 @@ const schedule = [
             {
                 time: "5:15 – 5:45pm",
                 content: "poetrygrifting + voiding",
-                location: "Universe Stage"
+                location: "Universe Stage",
+                speaker: ["@poetrygrifter","@vincentevoid"]
             },
             {
                 time: "4:15 – 6pm",
@@ -351,8 +361,9 @@ const schedule = [
             },
             {
                 time: "2 – 2:30pm",
-                content: "Doccords – “Docstrings for Hoon”",
-                location: "Universe Stage"
+                content: "Doccords – Docstrings for Hoon",
+                location: "Universe Stage",
+                speaker: ["~datnut-pollen"]
             },
             {
                 time: "2:30 – 3pm",
@@ -368,11 +379,6 @@ const schedule = [
                 time: "3 – 3:15pm",
                 content: "Dalten Announcement",
                 location: "Star Stage"
-            },
-            {
-                time: "3 – 3:15pm",
-                content: "El Salvador DAO Law",
-                location: "Universe Stage"
             },
             {
                 time: "3:15 – 4pm",
