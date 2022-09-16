@@ -320,6 +320,7 @@ const schedule = [
                     "Walter Kirn",
                     "Anna Khachiyan",
                     "Alex Lee Moyer",
+                    "Katherine Dee",
                     "Noah Kumin"]
             },
             {
