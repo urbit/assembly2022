@@ -102,8 +102,8 @@ export default function Home() {
               <li>Parties, of course</li>
             </ul>
             <p>
-              As with last year, little of this will be recorded. You'll just
-              have to be there.
+              Nothing will be livestreamed. Recordings of talks will be released following 
+              the event at our discretion.
             </p>
           </div>
           <div className="flex flex-col space-y-8 basis-1/4">
