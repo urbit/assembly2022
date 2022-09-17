@@ -170,9 +170,9 @@ const schedule = [
         description: "Several hardware companies give lightning talks that showcase what they've been working on."
       },
       {
-        time: "3:10pm",
+        time: "3:15 – 3:30pm",
         content: "DAOs in El Salvador",
-        location: "Star Stage",
+        location: "Universe Stage",
         speaker: ["Stephen Galebach"]
       },
       {
