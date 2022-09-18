@@ -266,7 +266,7 @@ const schedule = [
       },
       {
         time: "1:30 – 2pm",
-        content: "Middleware",
+        content: "Agent Transformers",
         speaker: ["~wicrum-wicrun"],
         location: "Universe Stage"
       },
@@ -410,8 +410,10 @@ const schedule = [
       },
       {
         time: "3 – 3:15pm",
-        content: "Special Announcement from the Dalten Collective",
-        location: "Star Stage"
+        content: "Dalten Collective: A Journey on Mars",
+        location: "Star Stage",
+        speaker: ["Kenny Rowe"],
+        description: "The Dalten Collective is one of Urbit's oldest groups. Formed in early 2020, the collective has been experimenting and learning how to organize in the network age. Come and learn what it means to live a life of fellowship, sustainability, and sovereignty."
       },
       {
         time: "3:15 – 4pm",
