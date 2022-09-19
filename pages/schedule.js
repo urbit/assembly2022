@@ -164,16 +164,16 @@ const schedule = [
         speaker: ["Josh Lehman"]
       },
       {
+        time: "3:00 – 3:15pm",
+        content: "DAOs in El Salvador",
+        location: "Star Stage",
+        speaker: ["Stephen Galebach"]
+      },
+      {
         time: "3:15 – 4pm",
         content: "Hardware Talks",
         location: "Star Stage",
         description: "Several hardware companies give lightning talks that showcase what they've been working on."
-      },
-      {
-        time: "3:15 – 3:30pm",
-        content: "DAOs in El Salvador",
-        location: "Universe Stage",
-        speaker: ["Stephen Galebach"]
       },
       {
         time: "3:30 – 4:30pm",
@@ -205,8 +205,7 @@ const schedule = [
                   "Dryden Brown",
                   "Aaron Wright",
                   "Samo Burja",
-                  "Casey Caruso"
-                 ]
+                  "Casey Caruso"]
       },
       {
         time: "6 – 6:15pm",
@@ -255,7 +254,8 @@ const schedule = [
                   "Josh Rosenthal",
                   "Soryu Forall",
                   "~nilrun-mardux",
-                  "Mystery guest"]
+                  "Mystery guest"],
+        description: "​Can we reboot the American miracle on the digital plane? The Founding Fathers of the USA designed the most economically generative institutions in the history of government, but today American meatspace has been captured by an extractive geriatric class. Crypto is generating tremendous value and dynamism, but not yet new countries or national revolutions. What would it take to re-run the American experiment on digital rails?"
       },
       {
         time: "1 – 1:30pm",
