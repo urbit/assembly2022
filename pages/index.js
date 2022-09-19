@@ -446,7 +446,7 @@ const speakers = [
   {
     name: "Luke Stiles",
     patp: "~famhut-wolpyx",
-    about: `Engineering Manager, <a target="_blank" href="https://tlon.io">Tlon</a>`,
+    about: `VP Engineering, <a target="_blank" href="https://tlon.io">Tlon</a>`,
     image: "https://media.urbit.org/assembly/lukestiles.jpg",
   },
   {
