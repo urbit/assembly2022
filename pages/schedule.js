@@ -176,7 +176,7 @@ const schedule = [
         description: "Several hardware companies give lightning talks that showcase what they've been working on."
       },
       {
-        time: "3:30 – 4:30pm",
+        time: "3:15 – 4:15pm",
         type: "Workshop",
         content: "%flap",
         description: "Learn how to take an off-the-shelf JS browser game and connect it to an Urbit backend for score retention and leaderboard among %pals.",
@@ -194,6 +194,12 @@ const schedule = [
                   "~mopfel-winrux",
                   "~lomped-firser"],
         description: "Software alone won't save us. Hardware enthusiasts, unite!"
+      },
+      {
+        time: "4:15 – 4:45pm",
+        content: "Urbit Foundation Presentation",
+        location: "Universe Stage",
+        speaker: ["Josh Lehman"]
       },
       {
         time: "5 – 6pm",
