@@ -170,7 +170,7 @@ const schedule = [
         speaker: ["Stephen Galebach"]
       },
       {
-        time: "2:45 – 3:30pm",
+        time: "3:15 – 4pm",
         content: "Hardware Talks",
         location: "Star Stage",
         description: "Several hardware companies give lightning talks that showcase what they've been working on."
@@ -184,7 +184,7 @@ const schedule = [
         speaker: ["N E Davis"]
       },
       {
-        time: "3:30 – 4:15pm",
+        time: "4 – 4:45pm",
         type: "Panel",
         content: "New World Hardware",
         location: "Star Stage",
@@ -198,7 +198,7 @@ const schedule = [
       {
         time: "4:15 – 4:45pm",
         content: "Urbit Foundation Presentation",
-        location: "Star Stage",
+        location: "Universe Stage",
         speaker: ["Josh Lehman"]
       },
       {
