@@ -237,7 +237,7 @@ const schedule = [
       },
       {
         time: "11:15 – 12pm",
-        content: "Holium Presentation",
+        content: "The Next Frontier",
         location: "Galaxy Stage",
         speaker: ["Trent Gillham"]
       },
