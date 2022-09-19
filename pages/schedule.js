@@ -40,7 +40,7 @@ export default function Schedule() {
              <Nav />
            </header>
            <section
-             className="bg-purple w-full text-white py-32 px-8 lg:px-0 flex flex-col items-center justify-center"
+             className="bg-purple w-full text-white py-32 px-4 lg:px-0 flex flex-col items-center justify-center"
              id="schedule"
            >
              <div className="max-w-screen-md w-full flex flex-col space-y-16 items-center">
