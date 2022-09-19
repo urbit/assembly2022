@@ -438,12 +438,6 @@ const speakers = [
     image: "https://media.urbit.org/assembly/tedblackman.jpg",
   },
   {
-    name: "Joe Bryan",
-    patp: "~master-morzod",
-    about: `Engineer, <a target="_blank" href="https://tlon.io">Tlon</a>`,
-    image: "https://media.urbit.org/assembly/joebryan.jpg",
-  },
-  {
     name: "Luke Stiles",
     patp: "~famhut-wolpyx",
     about: `VP Engineering, <a target="_blank" href="https://tlon.io">Tlon</a>`,
