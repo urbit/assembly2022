@@ -434,7 +434,7 @@ const speakers = [
   {
     name: "Ted Blackman",
     patp: "~rovnys-ricfer",
-    about: `Engineer, <a target="_blank" href="https://tlon.io">Tlon</a>`,
+    about: `Engineering Manager, <a target="_blank" href="https://tlon.io">Tlon</a>`,
     image: "https://media.urbit.org/assembly/tedblackman.jpg",
   },
   {
