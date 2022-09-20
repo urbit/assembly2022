@@ -55,7 +55,7 @@ export default function Schedule() {
               <div className={cn("shrink-0 uppercase font-bold border-2 text-sm sm:text-md border-white rounded-xl px-4 py-2 cursor-pointer",
                 "hover:bg-white hover:text-purple",
                 {
-                  "bg-white text-purple": i === Number(day)
+                  "bg-white text-purple": i === Number(day || 0)
                 })}
                 onClick={() => router.push({
                   query: { day: i }
@@ -65,7 +65,7 @@ export default function Schedule() {
             ))}
           </div>
         </div>
-        {Object.values(schedule).filter((each, i) => i === Number(day)).map((day) => {
+        {Object.values(schedule).filter((each, i) => i === Number(day || 0)).map((day) => {
           return (
             <div className="w-full flex flex-col justify-center">
               <div className="flex justify-between font-semibold pb-4">
