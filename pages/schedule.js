@@ -400,8 +400,8 @@ const schedule = [
       {
         time: "1:30 – 2:30pm",
         type: "Panel",
-        content: "Web3 Darwin Awards",
-        description: "An exploration of the dumbest-of-all-time uses for Blockchain, circling toward an exploration of what Blockchains are actually useful for and what's still needed.",
+        content: "The Elephant in the Room",
+        description: "Blockchain’s killer app problem and how Urbit fixes this.",
         location: "Galaxy Stage",
         speaker: ["Brian Crain",
           "Lane Rettig",
