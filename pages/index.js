@@ -371,7 +371,7 @@ const speakers = [
   },
   {
     name: "Dryden Brown",
-    patp: "~??????-??????",
+    patp: "~fitrum-fotnym",
     about: `CEO &amp; Co-founder, <a target="_blank" href="https://www.praxissociety.com/">Praxis</a>`,
     image: "https://media.urbit.org/assembly/drydenbrown.jpg",
   },
