@@ -277,7 +277,8 @@ const schedule = [
         time: "1:30 – 2pm",
         content: "Agent Transformers",
         speaker: ["~wicrum-wicrun"],
-        location: "Universe Stage"
+        location: "Universe Stage",
+        description: "When adding functionality that is orthogonal to the core logic of an agent, extending it with off-the shelf middleware is often both conceptually simpler and more flexible than editing the code to support the new feature. But Gall currently lacks native support for this, and so many pitfalls and problems exist in practice. Come and learn how to avoid these, see examples of new middleware recently shipped by Quartus, and get a glimpse of where native support could take us in the future!",
       },
       {
         time: "2 – 3pm",
