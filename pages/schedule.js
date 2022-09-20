@@ -48,7 +48,7 @@ export default function Schedule() {
                  Schedule
                </h1>
 
-               <div className="bg-purple sticky top-[50px] sm:top-[60px] flex py-4 w-full flex flex-col justify-center items-center">
+               <div className="bg-purple sticky top-[52px] sm:top-[60px] flex py-4 w-full flex flex-col justify-center items-center">
                  <div className="flex space-x-3 sm:space-x-4 overflow-x-auto ">
                    {["THUR 22", "FRI 23", "SAT 24", "SUN 25"].map((day, i) => (
                      <div className={cn("shrink-0 uppercase font-bold border-2 text-sm sm:text-md border-white rounded-xl px-4 py-2 cursor-pointer",
