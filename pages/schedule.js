@@ -286,9 +286,9 @@ const schedule = [
       {
         time: "2 – 3pm",
         type: "Panel",
-        content: "Art After Everything",
+        content: "Relationship to Form",
         location: "Star Stage",
-        description: "Great works of art pioneer and define what is beautiful. To truly go beyond our conventional ideas of what is ‘pretty’ or ‘attractive’ the artist has to push themselves into new territory and go beyond the familiar. In a world that is universally connected how does the artist carve out the space to meditate on what is beautiful? Where do new ways of seeing take shape?",
+        description: "Artists should be fundamentally interested in making things that are beautiful.  How do you accomplish that in the world today given that digital spaces are so terrible? Reactions to digital art is a reaction to the fact that the medium is lacking. How does the tradition of a relationship to historical form maintain itself in the world of deviant art? Or put more simply, how does one maintain tradition in a fragmented world?",
         speaker: ["Galen Wolfe-Pauly",
           "Petra Cortright",
           "Asher Penn",
