@@ -310,38 +310,38 @@ const speakers = [
   },
   {
     name: "Walter Kirn",
-    patp: "",
+    patp: "~linmul-pitlex",
     about: `<a target="_blank" href="https://twitter.com/walterkirn">@walterkirn</a><br>Writer`,
     image: "https://media.urbit.org/assembly/walterkirn.jpg",
   },
   {
     name: "Alex Lee Moyer",
-    patp: "~nattul-podlec",
+    patp: "~sogmut-nomwed",
     about: `filmmaker<br /> <a target="_blank" href="https://alexswar.com">Alex's War</a> & TFW NO GF`,
     image: "https://media.urbit.org/assembly/alm.jpg",
   },
   {
     name: "Anna Khachiyan",
-    patp: "",
+    patp: "~nilnep-hashep",
     about: `<a target="_blank" href="https://twitter.com/annakhachiyan">@annakhachiyan</a><br/> co-host, <a target="_blank" href="http://redscarepodcast.com">Red Scare</a>`,
     image:
       "https://storage.googleapis.com/media.urbit.org/assembly/s200_anna.khachiyan.jpg",
   },
   {
     name: "Samo Burja",
-    patp: "",
+    patp: "~??????-??????",
     about: `<a target="_blank" href="https://twitter.com/samoburja">@samoburja</a><br>Founder, <a target="_blank" href="https://www.bismarckanalysis.com/">Bismarck Analysis</a>`,
     image: "https://media.urbit.org/assembly/samoburja.jpg",
   },
   {
     name: "Petra Cortright",
-    patp: "",
+    patp: "~folnel-simdur",
     about: `Artist`,
     image: "https://media.urbit.org/assembly/petra.jpg",
   },
   {
     name: "Katherine Dee",
-    patp: "",
+    patp: "~??????-??????",
     about: `<a target="_blank" href="https://twitter.com/default_friend">@default_friend</a><br>Writer, <a target="_blank" href="https://defaultfriend.substack.com/">Default Wisdom</a>`,
     image: "https://media.urbit.org/assembly/defaultfriend.jpg",
   },
@@ -371,19 +371,19 @@ const speakers = [
   },
   {
     name: "Dryden Brown",
-    patp: "",
+    patp: "~??????-??????",
     about: `CEO &amp; Co-founder, <a target="_blank" href="https://www.praxissociety.com/">Praxis</a>`,
     image: "https://media.urbit.org/assembly/drydenbrown.jpg",
   },
   {
     name: "Aaron Wright",
-    patp: "",
+    patp: "~??????-??????",
     about: `Co-founder &amp; CEO, <a target="_blank" href="https://tributelabs.xyz">Tribute Labs</a>`,
     image: "https://media.urbit.org/assembly/aaronwright.jpg",
   },
   {
     name: "Asher Penn",
-    patp: "",
+    patp: "~??????-??????",
     about: `Founder &amp; Editor, <a target="_blank" href="http://sexmagazine.us/">Sex Magazine</a>`,
     image: "https://media.urbit.org/assembly/asherpenn.jpg",
   },
@@ -396,7 +396,7 @@ const speakers = [
   },
   {
     name: "Matt Condon",
-    patp: "",
+    patp: "~littel-fodrex",
     about: `Creator, <a target="_blank" href="https://themanymatts.lol/">The Many Matts</a>`,
     image: "https://media.urbit.org/assembly/mattcondon.jpg",
   },
@@ -444,9 +444,9 @@ const speakers = [
     image: "https://media.urbit.org/assembly/lukestiles.jpg",
   },
   {
-    name: "",
+    name: "Mark",
     patp: "~palfun-foslup",
-    about: `Engineer, <a target="_blank" href="https://tlon.io">Tlon</a>`,
+    about: `\"Engineer\", <a target="_blank" href="https://tlon.io">Tlon</a>`,
     image: "https://media.urbit.org/assembly/palfun.png",
   },
   {
@@ -457,7 +457,7 @@ const speakers = [
   },
   {
     name: "Josh Rosenthal, PhD",
-    patp: "",
+    patp: "~??????-??????",
     about: `Partner, <a target="_blank" href="https://www.go6ixthevent.com/">Sixth Event</a> &amp; <a target="_blank" href="https://www.https://www.gonarwhalventures.com/.com/">Narwhal Ventures</a>`,
     image: "https://media.urbit.org/assembly/joshrosenthal.jpg",
   },
@@ -469,13 +469,13 @@ const speakers = [
   },
   {
     name: "Soryu Forall",
-    patp: "",
+    patp: "~??????-??????",
     about: `Founder and Head Teacher, <a target="_blank" href="https://www.centerformindfullearning.org/">Center for Mindful Learning</a>`,
     image: "https://media.urbit.org/assembly/soryu.jpg",
   },
   {
     name: "Finn Brown",
-    patp: "",
+    patp: "~??????-??????",
     about: `Co-founder, <a target="_blank" href="https://www.vienna.earth/">Vienna Hypertext</a>`,
     image: "https://media.urbit.org/assembly/finn.jpg",
   },
