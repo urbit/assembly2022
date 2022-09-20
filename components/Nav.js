@@ -31,7 +31,7 @@ export default function Header({ title }) {
           </a>
         </li>
         <li className="text-sm md:text-lg self-center">
-          <a href="/schedule?day=0"
+          <a href="/schedule"
             className="text-sm md:text-lg py-2 px-4 rounded-md text-black bg-green">
             Schedule
           </a>
