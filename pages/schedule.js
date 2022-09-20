@@ -352,6 +352,12 @@ const schedule = [
         content: "Closing Remarks",
         location: "Galaxy Stage",
         speaker: ["Josh Lehman"]
+      },
+      {
+        time: "8 – 10pm",
+        content: "Alex's War",
+        location: "Galaxy Stage",
+        type: "Film"
       }
     ],
   },
