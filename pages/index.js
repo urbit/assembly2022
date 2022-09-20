@@ -13,7 +13,7 @@ export default function Home() {
         <div className="w-full flex text-center justify-center bg-black">
           <a
             href="https://urbit.org"
-            className="w-100 left-2 top-1 flex sm:block sm:absolute"
+            className="w-100 left-1 sm:left-2 top-1 sm:top-2 flex block absolute"
           >
             <img
               src="https://media.urbit.org/assembly/urbit-sig-108.png"

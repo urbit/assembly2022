@@ -28,7 +28,7 @@ export default function Schedule() {
              <div className="w-full flex text-center justify-center bg-black">
                <a
                  href="https://urbit.org"
-                 className="w-100 left-2 top-1 flex sm:block sm:absolute"
+                 className="w-100 left-1 sm:left-2 top-1 sm:top-2 flex block absolute"
                >
                  <img
                    src="https://media.urbit.org/assembly/urbit-sig-108.png"
@@ -47,17 +47,20 @@ export default function Schedule() {
                <h1 className="text-3xl font-regular tracking-widest uppercase">
                  Schedule
                </h1>
-               <div className="flex space-x-4 overflow-x-auto">
-                 {["THUR 22", "FRI 23", "SAT 24", "SUN 25"].map((day, i) => (
-                   <div className={cn("shrink-0 uppercase font-bold border-2 border-white rounded-xl px-4 py-2 cursor-pointer",
-                                      "hover:bg-white hover:text-purple",
-                                      {
-                                        "bg-white text-purple": i === current
-                                      })}
-                        onClick={() => setCurrent(i)}>
-                     {day}
-                   </div>
-                 ))}
+
+               <div className="bg-purple sticky top-[50px] sm:top-[60px] flex py-4 w-full flex flex-col justify-center items-center">
+                 <div className="flex space-x-3 sm:space-x-4 overflow-x-auto ">
+                   {["THUR 22", "FRI 23", "SAT 24", "SUN 25"].map((day, i) => (
+                     <div className={cn("shrink-0 uppercase font-bold border-2 text-sm sm:text-md border-white rounded-xl px-4 py-2 cursor-pointer",
+                                        "hover:bg-white hover:text-purple",
+                                        {
+                                          "bg-white text-purple": i === current
+                                        })}
+                          onClick={() => setCurrent(i)}>
+                       {day}
+                     </div>
+                   ))}
+                 </div>
                </div>
                {Object.values(schedule).filter((day, i) => i === current).map((day) => {
                  return (
