@@ -329,7 +329,7 @@ const schedule = [
         speaker: ["~witfyl-ravped"]
       },
       {
-        time: "5:15 – 5:45pm",
+        time: "3:45 – 4pm",
         content: "poetrygrifting + voiding",
         location: "Universe Stage",
         speaker: ["@poetrygrifter", "@vincentevoid"],
