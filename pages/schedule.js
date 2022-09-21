@@ -329,7 +329,7 @@ const schedule = [
         speaker: ["~witfyl-ravped"]
       },
       {
-        time: "5:15 – 5:45pm",
+        time: "3:45 – 4pm",
         content: "poetrygrifting + voiding",
         location: "Universe Stage",
         speaker: ["@poetrygrifter", "@vincentevoid"],
@@ -349,6 +349,19 @@ const schedule = [
                   "Noah Kumin"]
       },
       {
+        time: "4:15 – 4:45pm",
+        content: "The Future of Building UI on Urbit",
+        location: "Universe Stage",
+        speaker: ["~nocsyx-lassul"],
+        description: "An open forum to discuss and discover what we can do to bring better UI primitives and tooling to Urbit. The goal is to come away with a handful of paths for people to start chasing. Please come with questions, points of discussion, and any thoughts you have in this domain."
+      },
+      {
+        time: "4:45 – 5:15pm",
+        content: "Listening to Urbit Data",
+        location: "Universe Stage",
+        speaker: ["~witfyl-ravped"]
+      },
+      {
         time: "6 – 6:15pm",
         content: "Closing Remarks",
         location: "Galaxy Stage",
@@ -359,6 +372,12 @@ const schedule = [
         content: "Alex's War",
         location: "Galaxy Stage",
         type: "Film"
+      },
+      {
+        time: "9pm – XXam",
+        content: "Concentric Reality",
+        location: "Location? ~bitdeg/assembly22",
+        type: "Rave"
       }
     ],
   },
@@ -403,23 +422,23 @@ const schedule = [
                   "Matt Condon"]
       },
       {
-        time: "2 – 2:30pm",
+        time: "1:30 – 2pm",
         content: "Doccords: Docstrings for Hoon",
         location: "Universe Stage",
         description: "This is a preview of a new Hoon feature which allows you to attach formal comments to arbitrary Hoon expressions.",
         speaker: ["~datnut-pollen"]
       },
       {
+        time: "2 – 3:30pm",
+        content: "The Sovereign Tech Stack",
+        location: "Universe Stage",
+        speaker: ["~sipsen-pilser"]
+      },
+      {
         time: "2:30 – 3pm",
         content: "Tirrel Presentation",
         location: "Star Stage",
         speaker: ["Logan Allen", "Christian Langalis"]
-      },
-      {
-        time: "2:30 – 3pm",
-        content: "The Sovereign Tech Stack",
-        location: "Universe Stage",
-        speaker: ["~sipsen-pilser"]
       },
       {
         time: "3 – 3:15pm",
@@ -442,22 +461,22 @@ const schedule = [
         description: "Excited by what you've seen throughout Assembly? Learn about the next steps you can take to join the Urbit ecosystem."
       },
       {
-        time: "3:15 – 4pm",
+        time: "2:30 – 3pm",
         content: "Writing Uqbar Smart Contracts",
         location: "Universe Stage",
         speaker: ["~hodzod-walrus"],
         description: "gm au, Uqbar's testnet is now live. Learn how to write smart contracts in Hoon directly from an Uqbar engineer."
       },
       {
+        time: "3:15 – 3:45pm",
+        content: "God Posting",
+        location: "Universe Stage"
+      },
+      {
         time: "4 – 4:30pm",
         content: "Hackathon Awards",
         location: "Star Stage",
         description: "The votes are in, let's see who won."
-      },
-      {
-        time: "4 – 4:30pm",
-        content: "God Posting",
-        location: "Universe Stage"
       },
       {
         time: "4:45 – 5:30pm",
