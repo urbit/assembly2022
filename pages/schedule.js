@@ -372,6 +372,12 @@ const schedule = [
         content: "Alex's War",
         location: "Galaxy Stage",
         type: "Film"
+      },
+      {
+        time: "9pm – XXam",
+        content: "Concentric Reality",
+        location: "~bitdeg/assembly22",
+        type: "Rave"
       }
     ],
   },
