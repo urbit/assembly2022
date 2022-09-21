@@ -479,4 +479,10 @@ const speakers = [
     about: `Co-founder, <a target="_blank" href="https://www.vienna.earth/">Vienna Hypertext</a>`,
     image: "https://media.urbit.org/assembly/finn.jpg",
   },
+  {
+    name: "Casey Caruso",
+    patp: "~??????-??????",
+    about: `Investment Partner, <a target="_blank" href="https://www.paradigm.xyz/">Paradigm</a>`,
+    image: "https://media.urbit.org/assembly/caseycaruso.jpg",
+  },
 ];
