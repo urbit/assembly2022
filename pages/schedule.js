@@ -316,20 +316,7 @@ const schedule = [
         description: "Smart home device makers are trying to turn people into tenants of their own homes. Sharecropping for data, these new landlords are using the yield to power systems used for surveillance and coercion. In this talk ~pilwyc-fastec will show how services work in today’s homes and what we could do to make the future less bleak with Urbit."
       },
       {
-        time: "4:15 – 4:45pm",
-        content: "The Future of Building UI on Urbit",
-        location: "Universe Stage",
-        speaker: ["~nocsyx-lassul"],
-        description: "An open forum to discuss and discover what we can do to bring better UI primitives and tooling to Urbit. The goal is to come away with a handful of paths for people to start chasing. Please come with questions, points of discussion, and any thoughts you have in this domain."
-      },
-      {
-        time: "4:45 – 5:15pm",
-        content: "Listening to Urbit Data",
-        location: "Universe Stage",
-        speaker: ["~witfyl-ravped"]
-      },
-      {
-        time: "5:15 – 5:45pm",
+        time: "3:45 – 4pm",
         content: "poetrygrifting + voiding",
         location: "Universe Stage",
         speaker: ["@poetrygrifter", "@vincentevoid"],
@@ -347,6 +334,19 @@ const schedule = [
                   "Alex Lee Moyer",
                   "Katherine Dee",
                   "Noah Kumin"]
+      },
+      {
+        time: "4:15 – 4:45pm",
+        content: "The Future of Building UI on Urbit",
+        location: "Universe Stage",
+        speaker: ["~nocsyx-lassul"],
+        description: "An open forum to discuss and discover what we can do to bring better UI primitives and tooling to Urbit. The goal is to come away with a handful of paths for people to start chasing. Please come with questions, points of discussion, and any thoughts you have in this domain."
+      },
+      {
+        time: "4:45 – 5:15pm",
+        content: "Listening to Urbit Data",
+        location: "Universe Stage",
+        speaker: ["~witfyl-ravped"]
       },
       {
         time: "6 – 6:15pm",
@@ -410,16 +410,16 @@ const schedule = [
         speaker: ["~datnut-pollen"]
       },
       {
-        time: "2:30 – 3pm",
-        content: "Tirrel Presentation",
-        location: "Star Stage",
-        speaker: ["Logan Allen", "Christian Langalis"]
-      },
-      {
         time: "2 – 3:30pm",
         content: "The Sovereign Tech Stack",
         location: "Universe Stage",
         speaker: ["~sipsen-pilser"]
+      },
+      {
+        time: "2:30 – 3pm",
+        content: "Tirrel Presentation",
+        location: "Star Stage",
+        speaker: ["Logan Allen", "Christian Langalis"]
       },
       {
         time: "3 – 3:15pm",
@@ -449,15 +449,15 @@ const schedule = [
         description: "gm au, Uqbar's testnet is now live. Learn how to write smart contracts in Hoon directly from an Uqbar engineer."
       },
       {
+        time: "3:15 – 3:45pm",
+        content: "God Posting",
+        location: "Universe Stage"
+      },
+      {
         time: "4 – 4:30pm",
         content: "Hackathon Awards",
         location: "Star Stage",
         description: "The votes are in, let's see who won."
-      },
-      {
-        time: "3:15 – 3:45pm",
-        content: "God Posting",
-        location: "Universe Stage"
       },
       {
         time: "4:45 – 5:30pm",
