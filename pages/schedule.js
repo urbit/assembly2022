@@ -376,7 +376,7 @@ const schedule = [
       {
         time: "9pm – XXam",
         content: "Concentric Reality",
-        location: "~bitdeg/assembly22",
+        location: "Location? ~bitdeg/assembly22",
         type: "Rave"
       }
     ],
