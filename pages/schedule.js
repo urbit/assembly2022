@@ -403,7 +403,7 @@ const schedule = [
                   "Matt Condon"]
       },
       {
-        time: "2 – 2:30pm",
+        time: "1:30 – 2pm",
         content: "Doccords: Docstrings for Hoon",
         location: "Universe Stage",
         description: "This is a preview of a new Hoon feature which allows you to attach formal comments to arbitrary Hoon expressions.",
@@ -416,7 +416,7 @@ const schedule = [
         speaker: ["Logan Allen", "Christian Langalis"]
       },
       {
-        time: "2:30 – 3pm",
+        time: "2 – 3:30pm",
         content: "The Sovereign Tech Stack",
         location: "Universe Stage",
         speaker: ["~sipsen-pilser"]
@@ -442,7 +442,7 @@ const schedule = [
         description: "Excited by what you've seen throughout Assembly? Learn about the next steps you can take to join the Urbit ecosystem."
       },
       {
-        time: "3:15 – 4pm",
+        time: "2:30 – 3pm",
         content: "Writing Uqbar Smart Contracts",
         location: "Universe Stage",
         speaker: ["~hodzod-walrus"],
@@ -455,7 +455,7 @@ const schedule = [
         description: "The votes are in, let's see who won."
       },
       {
-        time: "4 – 4:30pm",
+        time: "3:15 – 3:45pm",
         content: "God Posting",
         location: "Universe Stage"
       },
