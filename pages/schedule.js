@@ -316,6 +316,19 @@ const schedule = [
         description: "Smart home device makers are trying to turn people into tenants of their own homes. Sharecropping for data, these new landlords are using the yield to power systems used for surveillance and coercion. In this talk ~pilwyc-fastec will show how services work in today’s homes and what we could do to make the future less bleak with Urbit."
       },
       {
+        time: "4:15 – 4:45pm",
+        content: "The Future of Building UI on Urbit",
+        location: "Universe Stage",
+        speaker: ["~nocsyx-lassul"],
+        description: "An open forum to discuss and discover what we can do to bring better UI primitives and tooling to Urbit. The goal is to come away with a handful of paths for people to start chasing. Please come with questions, points of discussion, and any thoughts you have in this domain."
+      },
+      {
+        time: "4:45 – 5:15pm",
+        content: "Listening to Urbit Data",
+        location: "Universe Stage",
+        speaker: ["~witfyl-ravped"]
+      },
+      {
         time: "3:45 – 4pm",
         content: "poetrygrifting + voiding",
         location: "Universe Stage",
