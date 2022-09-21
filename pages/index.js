@@ -341,7 +341,7 @@ const speakers = [
   },
   {
     name: "Katherine Dee",
-    patp: "~??????-??????",
+    patp: "~hapnyx-tamnex",
     about: `<a target="_blank" href="https://twitter.com/default_friend">@default_friend</a><br>Writer, <a target="_blank" href="https://defaultfriend.substack.com/">Default Wisdom</a>`,
     image: "https://media.urbit.org/assembly/defaultfriend.jpg",
   },
@@ -475,7 +475,7 @@ const speakers = [
   },
   {
     name: "Finn Brown",
-    patp: "~??????-??????",
+    patp: "~fitrum-fotnym",
     about: `Co-founder, <a target="_blank" href="https://www.vienna.earth/">Vienna Hypertext</a>`,
     image: "https://media.urbit.org/assembly/finn.jpg",
   },
