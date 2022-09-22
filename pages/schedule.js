@@ -446,6 +446,13 @@ const schedule = [
         speaker: ["Logan Allen", "Christian Langalis"]
       },
       {
+        time: "2:30 – 3:15pm",
+        content: "Writing Uqbar Smart Contracts",
+        location: "Universe Stage",
+        speaker: ["~hodzod-walrus"],
+        description: "gm au, Uqbar's testnet is now live. Learn how to write smart contracts in Hoon directly from an Uqbar engineer."
+      },
+      {
         time: "3 – 3:15pm",
         content: "Dalten Collective: A Journey on Mars",
         location: "Star Stage",
@@ -464,13 +471,6 @@ const schedule = [
         location: "Star Stage",
         speaker: ["~sarlev-sarsen", "~lagrev-nocfep"],
         description: "Excited by what you've seen throughout Assembly? Learn about the next steps you can take to join the Urbit ecosystem."
-      },
-      {
-        time: "2:30 – 3pm",
-        content: "Writing Uqbar Smart Contracts",
-        location: "Universe Stage",
-        speaker: ["~hodzod-walrus"],
-        description: "gm au, Uqbar's testnet is now live. Learn how to write smart contracts in Hoon directly from an Uqbar engineer."
       },
       {
         time: "3:15 – 3:45pm",
