@@ -91,7 +91,13 @@ export default function Schedule() {
                                        "text-lavender": event.location === "Universe Stage"
                                      })}>{event.location}</p>
                                    )}
+                                  {event.coordinates && (
+                                  <a className="underline" href="https://www.google.com/maps/place/25%C2%B046'48.8%22N+80%C2%B007'43.0%22W/@25.7807404,-80.1303388,18.1z/data=!4m5!3m4!1s0x0:0xc7d47235f13afaea!8m2!3d25.78021!4d-80.12862">
+                                  25.78021° N, 80.12862° W</a>
+                                  
+                                  )}
                                  </div>
+
                                  {event.speaker && (
                                    <ul>
                                      {event.speaker.map((each) => (
@@ -147,7 +153,7 @@ const schedule = [
         time: "2pm",
         content:
         "Beach pre-registration",
-        location: ""
+        coordinates: "25.78021° N, 80.12862° W"
       },
       {
         time: "6–8:30pm",
