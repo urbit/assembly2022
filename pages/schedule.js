@@ -92,9 +92,8 @@ export default function Schedule() {
                                      })}>{event.location}</p>
                                    )}
                                   {event.coordinates && (
-                                  <a className="underline" href="https://www.google.com/maps/place/25%C2%B046'48.8%22N+80%C2%B007'43.0%22W/@25.7807404,-80.1303388,18.1z/data=!4m5!3m4!1s0x0:0xc7d47235f13afaea!8m2!3d25.78021!4d-80.12862">
-                                  25.78021° N, 80.12862° W</a>
-                                  
+                                    <a className="underline" href="https://www.google.com/maps/place/25%C2%B046'48.8%22N+80%C2%B007'43.0%22W/@25.7807404,-80.1303388,18.1z/data=!4m5!3m4!1s0x0:0xc7d47235f13afaea!8m2!3d25.78021!4d-80.12862">
+                                    25.78021° N, 80.12862° W</a>
                                   )}
                                  </div>
 
@@ -322,6 +321,13 @@ const schedule = [
         description: "Smart home device makers are trying to turn people into tenants of their own homes. Sharecropping for data, these new landlords are using the yield to power systems used for surveillance and coercion. In this talk ~pilwyc-fastec will show how services work in today’s homes and what we could do to make the future less bleak with Urbit."
       },
       {
+        time: "3:45 – 4:15pm",
+        content: "poetrygrifting + voiding",
+        location: "Universe Stage",
+        speaker: ["@poetrygrifter", "@vincentevoid"],
+        description: "poems about being highly online interspersed with music"
+      },
+      {
         time: "4:15 – 4:45pm",
         content: "The Future of Building UI on Urbit",
         location: "Universe Stage",
@@ -333,13 +339,6 @@ const schedule = [
         content: "Listening to Urbit Data",
         location: "Universe Stage",
         speaker: ["~witfyl-ravped"]
-      },
-      {
-        time: "3:45 – 4pm",
-        content: "poetrygrifting + voiding",
-        location: "Universe Stage",
-        speaker: ["@poetrygrifter", "@vincentevoid"],
-        description: "poems about being highly online interspersed with music"
       },
       {
         time: "4:15 – 6pm",
