@@ -68,7 +68,7 @@ export default function Home() {
         </div>
       </section>
 
-    
+
 
       <section
         className="bg-green flex flex-col space-y-16 py-32 items-center px-8 lg:px-0"
@@ -102,7 +102,7 @@ export default function Home() {
               <li>Parties, of course</li>
             </ul>
             <p>
-              Nothing will be livestreamed. Recordings of talks will be released following 
+              Nothing will be livestreamed. Recordings of talks will be released following
               the event at our discretion.
             </p>
           </div>
@@ -321,13 +321,6 @@ const speakers = [
     image: "https://media.urbit.org/assembly/alm.jpg",
   },
   {
-    name: "Anna Khachiyan",
-    patp: "~nilnep-hashep",
-    about: `<a target="_blank" href="https://twitter.com/annakhachiyan">@annakhachiyan</a><br/> co-host, <a target="_blank" href="http://redscarepodcast.com">Red Scare</a>`,
-    image:
-      "https://storage.googleapis.com/media.urbit.org/assembly/s200_anna.khachiyan.jpg",
-  },
-  {
     name: "Samo Burja",
     patp: "~??????-??????",
     about: `<a target="_blank" href="https://twitter.com/samoburja">@samoburja</a><br>Founder, <a target="_blank" href="https://www.bismarckanalysis.com/">Bismarck Analysis</a>`,
@@ -475,7 +468,7 @@ const speakers = [
   },
   {
     name: "Finn Brown",
-    patp: "~fitrum-fotnym",
+    patp: "~finnem-pilbes",
     about: `Co-founder, <a target="_blank" href="https://www.vienna.earth/">Vienna Hypertext</a>`,
     image: "https://media.urbit.org/assembly/finn.jpg",
   },
