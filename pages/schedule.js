@@ -478,6 +478,13 @@ const schedule = [
         location: "Universe Stage"
       },
       {
+        time: "3:45 – 4:15pm",
+        content: "Galaxies: Urbit’s Store of Value",
+        location: "Universe Stage",
+        speaker: ["James Geary"],
+        description: "How is Urbit governed? What are galaxies, and why are they valuable to the Urbit network? James will dive into Urbit’s governance system, why galaxies might be the key to a fair and economically secure Urbit, what Urbit governance might look like in the future, and how Point DAO plans to build for it."
+      },
+      {
         time: "4 – 4:30pm",
         content: "Hackathon Awards",
         location: "Star Stage",
