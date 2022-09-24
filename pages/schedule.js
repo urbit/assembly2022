@@ -2,6 +2,7 @@ import Nav from '@components/Nav';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import cn from 'classnames';
+import Link from "next/link";
 
 export default function Schedule() {
   const router = useRouter();
@@ -97,7 +98,7 @@ export default function Schedule() {
                                   )}
                                   {event.sponsor && (
                                     <p className="mt-5 opacity-50">Brought to you by&nbsp;
-                                    <a className="underline" href="{event.sponsor_link}">{event.sponsor}
+                                    <a className="underline" href={event.sponsor_link}>{event.sponsor}
                                     </a>
                                     </p>
                                   )}
