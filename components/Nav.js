@@ -23,14 +23,6 @@ export default function Header({ title }) {
         </li>
 
         <li className="text-sm md:text-lg self-center">
-          <a
-            href="https://www.eventbrite.com/e/urbit-assembly-2022-tickets-370588930467"
-            target="_blank"
-            className="text-sm md:text-lg py-2 px-4 rounded-md text-black bg-melon">
-            Register
-          </a>
-        </li>
-        <li className="text-sm md:text-lg self-center">
           <a href="/schedule"
             className="text-sm md:text-lg py-2 px-4 rounded-md text-black bg-green">
             Schedule

@@ -354,7 +354,6 @@ const schedule = [
         location: "Galaxy Stage",
         speaker: ["Sam Frank",
                   "Walter Kirn",
-                  "Anna Khachiyan",
                   "Alex Lee Moyer",
                   "Katherine Dee",
                   "Noah Kumin"]
