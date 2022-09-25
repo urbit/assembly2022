@@ -484,6 +484,7 @@ const schedule = [
         time: "3:15 – 3:45pm",
         content: "God Posting",
         location: "Universe Stage",
+        speaker: ["Maxwell Cody", "Sam Frank"],
         description: "Land and Ted Kaczynski fight for the souls of disaffected youth on opposite sides of the industrial apocalypse. UFOs and Psychedelics used to be ‘cranks-only’ subjects. Now they’ve become mainstream at a dizzying pace. Are we going to have alien-hybrid saints? Ayahuasca start-ups? Mandatory shroom trips for ‘bad apple’ cops?"
       },
       {
