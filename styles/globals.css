@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Code+Pro:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Code+Pro:wght@400;500;600;700;800&family=Roboto:wght@700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -39,4 +39,8 @@ ul li {
 
 #team a {
   @apply font-medium border-b
+}
+
+.button-lg {
+  @apply flex items-center justify-center px-6 py-1 rounded-xl h-14 font-semibold antialiased;
 }

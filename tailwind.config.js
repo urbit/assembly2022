@@ -15,11 +15,13 @@ module.exports = {
       white: "#ffffff",
       black: "#000000",
       purple: "#231B2B",
-      grey: "#878778"
+      grey: "#878778",
+      "dark-purple": "#221c2a"
     },
     fontFamily: {
       sans: "Inter",
       monospace: "Source Code Pro",
+      roboto: "Roboto"
     },
   },
   plugins: [],
