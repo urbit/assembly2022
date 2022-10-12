@@ -96,8 +96,8 @@ export default function Home() {
         {articles.map((article) => {
           return (
             <div className="flex flex-col space-y-4 lg:space-y-0 lg:space-x-8 lg:flex-row items-center">
-              <div className="aspect-video max-h-[256px] min-w-0 min-h-0 items-center">
-                <img className="h-full w-full object-cover" src={article.image} />
+              <div className="aspect-video max-h-[256px] min-w-0 min-h-0 items-center overflow-hidden lg:basis-1/3">
+                <img className="h-full w-full object-cover min-h-0 min-w-0" src={article.image} />
               </div>
               <div className="flex flex-col space-y-8 max-w-prose">
                 <p>{article.description}</p>
