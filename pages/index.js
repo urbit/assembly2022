@@ -5,6 +5,10 @@ const talks = [
   {
     youTubeId: "zDuaGi6Jbrk",
     description: "Josh Lehman, Executive Director of the Urbit Foundation, opens Assembly 2022 with a review of the extraordinary developments of the past year and a call to make computing more personal again."
+  },
+  {
+    youTubeId: "bTNAtgfRaUc",
+    description: "Reserve CEO and co-founder Nevin Freeman discusses the social and technological conditions that make software unfriendly today, and the vision that Urbit and cryptocurrencies like Reserve offer for friendlier computers, software, and networks."
   }
 ];
 
