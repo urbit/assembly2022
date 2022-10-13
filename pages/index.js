@@ -80,7 +80,7 @@ export default function Home() {
         <Nav />
       </header>
       {/* Talks */}
-      <section className="bg-dark-purple text-white flex flex-col space-y-16 py-32 items-center px-8 xl:px-0">
+      <section id="talks" className="bg-dark-purple text-white flex flex-col space-y-16 py-32 items-center px-8 xl:px-0">
         <h2 className="text-3xl font-regular tracking-widest uppercase text-center">Talks</h2>
         {talks.map((talk) => {
           return (
@@ -98,7 +98,7 @@ export default function Home() {
         })}
       </section>
       {/* Articles */}
-      <section className="bg-green flex flex-col space-y-16 py-32 items-center px-8 xl:px-0">
+      <section id="articles" className="bg-green flex flex-col space-y-16 py-32 items-center px-8 xl:px-0">
         <h2 className="text-3xl font-regular tracking-widest uppercase text-center">Articles</h2>
         {articles.map((article) => {
           return (
