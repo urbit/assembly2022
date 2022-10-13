@@ -14,6 +14,13 @@ const talks = [
 
 const articles = [
   {
+    title: "My Weekend With the Martians",
+    description: "At the Assembly, a conference of Urbit denizens, Ruby Sutton discovers a community of eccentrics who dare to dream of a different internet.",
+    image: "https://media.urbit.org/assembly/articles/astramag.png",
+    publication: "Astra",
+    url: "https://astra-mag.com/articles/my-weekend-with-the-martians/"
+  },
+  {
     title: "User Error: A More Beautiful Computer",
     description: "From Dimes Square to the Network State, new frontiers are in the making. Adina Glickstein attends Urbit Assembly and considers the politics of tech-augmented exit.",
     image: "https://media.urbit.org/assembly/articles/spikeart.png",
