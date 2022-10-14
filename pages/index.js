@@ -3,13 +3,20 @@ import Nav from "@components/Nav";
 
 const talks = [
   {
+    title: "Opening Talk: Make Computers Personal Again",
     youTubeId: "zDuaGi6Jbrk",
     description: "Josh Lehman, Executive Director of the Urbit Foundation, opens Assembly 2022 with a review of the extraordinary developments of the past year and a call to make computing more personal again."
   },
   {
+    title: "Human-friendly Software on Urbit",
     youTubeId: "bTNAtgfRaUc",
     description: "Reserve CEO and co-founder Nevin Freeman discusses the social and technological conditions that make software unfriendly today, and the vision that Urbit and cryptocurrencies like Reserve offer for friendlier computers, software, and networks."
-  }
+  },
+  {
+    title: "Tlon: A New Landscape",
+    youTubeId: "3K3D9LGzvBA",
+    description: "Galen Wolfe-Pauly, CEO of Tlon Corporation, presents a brief history of computing, examines the problems with social software as it exists today, and offers a vision of the future where we own our digital tools. He's joined on stage by Marisa Rowland, Tlon's VP of Product, to demo the upcoming renovations to Landscape, an OS for Urbit."
+  },
 ];
 
 const articles = [
@@ -86,8 +93,9 @@ export default function Home() {
           return (
             <div className="flex flex-col space-y-4 lg:space-y-0 lg:space-x-8 lg:flex-row items-center">
               <img className="max-h-[256px] h-auto w-auto min-w-0 min-h-0" src={`https://img.youtube.com/vi/${talk.youTubeId}/maxresdefault.jpg`} />
-              <div className="flex flex-col space-y-8 max-w-prose">
-                <p>{talk.description}</p>
+              <div className="flex flex-col space-y-4 max-w-prose">
+                <h1 className="text-xl pb-0">{talk.title}</h1>
+                <p className="pb-4">{talk.description}</p>
                 <a target="_blank" className="button-lg uppercase font-roboto border-white w-fit border-2" href={`https://www.youtube.com/watch?v=${talk.youTubeId}`}>
                   <img src="/play.svg" className="pr-2" />
                   Play on YouTube
