@@ -17,6 +17,11 @@ const talks = [
     youTubeId: "3K3D9LGzvBA",
     description: "Galen Wolfe-Pauly, CEO of Tlon Corporation, presents a brief history of computing, examines the problems with social software as it exists today, and offers a vision of the future where we own our digital tools. He's joined on stage by Marisa Rowland, Tlon's VP of Product, to demo the upcoming renovations to Landscape, an OS for Urbit."
   },
+  {
+    title: "Urbit Core Development: The Timeless Way of Building",
+    youTubeId: "RIMJ0kZM1DY",
+    description: "Urbit's core development team discusses the state of Urbit and what can be expected in the near and not-so-near future."
+  }
 ];
 
 const articles = [
