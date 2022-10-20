@@ -21,6 +21,11 @@ const talks = [
     title: "Urbit Core Development: The Timeless Way of Building",
     youTubeId: "RIMJ0kZM1DY",
     description: "Urbit's core development team discusses the state of Urbit and what can be expected in the near and not-so-near future."
+  },
+  {
+    title: "The Medium is the Message",
+    youTubeId: "7g72HUbk_0Q",
+    description: "Sam Frank moderates a discussion on the purpose and potential of communications technologies in the current sociocultural landscape.  Featuring Alex Lee Moyer, Walter Kirn, Katherine Dee and Walter Kirn."
   }
 ];
 
