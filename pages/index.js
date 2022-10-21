@@ -36,6 +36,13 @@ const talks = [
 
 const articles = [
   {
+    title: "The New Cyberpunk",
+    description: "The old cyberpunk builds an artificial womb under the glow of Tokyo neon. The new cyberpunk builds a boring personal computer in an Austin garage before Latin Mass.",
+    image: "https://storage.googleapis.com/media.urbit.org/assembly/articles/P1000046.jpeg",
+    publication: "Other Life",
+    url: "https://www.otherlife.co/cyberpunk/"
+  },
+  {
     title: "Three Things #37: October 2, 2022",
     description: "Lane Rettig reflects on his experiernce at Assembly 2022 and the offers his view on the key takeaways.",
     image: "https://media.urbit.org/assembly/threethings.png",
@@ -110,7 +117,7 @@ export default function Home() {
       </header>
       {/* Talks */}
       <section id="talks" className="bg-dark-purple text-white flex flex-col space-y-16 py-32 items-center px-8 xl:px-0">
-        <h2 className="text-3xl font-regular tracking-widest uppercase text-center">Talks</h2>
+        <h2 className="text-3xl font-regular tracking-widest uppercase text-center">Talks &amp; Panels</h2>
         {talks.map((talk) => {
           return (
             <div className="flex flex-col space-y-4 lg:space-y-0 lg:space-x-8 lg:flex-row items-center">
