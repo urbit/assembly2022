@@ -26,6 +26,11 @@ const talks = [
     title: "The Medium is the Message",
     youTubeId: "7g72HUbk_0Q",
     description: "Sam Frank moderates a discussion on the purpose and potential of communications technologies in the current sociocultural landscape.  Featuring Alex Lee Moyer, Walter Kirn, Katherine Dee and Walter Kirn."
+  },
+  {
+    title: "New Institutions in the Network Age",
+    youTubeId: "Srl9tHz9OQA",
+    description: "Riva Tez moderates a discussion on the state of existing institutions and the opportunities for technologies like Urbit to create and shape new ones.  Featuring Samo Burja, Aaron Wright, Dryden Brown, and Casey Caruso."
   }
 ];
 
