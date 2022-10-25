@@ -31,6 +31,11 @@ const talks = [
     title: "New Institutions in the Network Age",
     youTubeId: "Srl9tHz9OQA",
     description: "Riva Tez moderates a discussion on the state of existing institutions and the opportunities for technologies like Urbit to create and shape new ones.  Featuring Samo Burja, Aaron Wright, Dryden Brown, and Casey Caruso."
+  },
+  {
+    title: "The Elephant in the Room",
+    youTubeId: "vCu9FoNnmWg",
+    description: "Lane Rettig, Brian Crain, Jake Brukhman, and Matt Condon discuss the state of the blockchain world and how it's all connected to Urbit."
   }
 ];
 
