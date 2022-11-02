@@ -3,40 +3,53 @@ import Nav from "@components/Nav";
 
 const talks = [
   {
-    title: "Opening Talk: Make Computers Personal Again",
-    youTubeId: "zDuaGi6Jbrk",
-    description: "Josh Lehman, Executive Director of the Urbit Foundation, opens Assembly 2022 with a review of the extraordinary developments of the past year and a call to make computing more personal again."
+    title: "Holium: The Next Frontier",
+    youTubeId: "Q-MtMu-Jbf4",
+    description: "Holium Founder and CEO Trent Gilham shares his vision for the possibilities of Urbit and offers a preview of Holium's flagship product."
   },
+
   {
-    title: "Human-friendly Software on Urbit",
-    youTubeId: "bTNAtgfRaUc",
-    description: "Reserve CEO and co-founder Nevin Freeman discusses the social and technological conditions that make software unfriendly today, and the vision that Urbit and cryptocurrencies like Reserve offer for friendlier computers, software, and networks."
-  },
-  {
-    title: "Tlon: A New Landscape",
-    youTubeId: "3K3D9LGzvBA",
-    description: "Galen Wolfe-Pauly, CEO of Tlon Corporation, presents a brief history of computing, examines the problems with social software as it exists today, and offers a vision of the future where we own our digital tools. He's joined on stage by Marisa Rowland, Tlon's VP of Product, to demo the upcoming renovations to Landscape, an OS for Urbit."
-  },
-  {
-    title: "Urbit Core Development: The Timeless Way of Building",
-    youTubeId: "RIMJ0kZM1DY",
-    description: "Urbit's core development team discusses the state of Urbit and what can be expected in the near and not-so-near future."
-  },
-  {
-    title: "The Medium is the Message",
-    youTubeId: "7g72HUbk_0Q",
-    description: "Sam Frank moderates a discussion on the purpose and potential of communications technologies in the current sociocultural landscape.  Featuring Alex Lee Moyer, Walter Kirn, Katherine Dee and Walter Kirn."
+    title: "The Elephant in the Room",
+    youTubeId: "vCu9FoNnmWg",
+    description: "Lane Rettig, Brian Crain, Jake Brukhman, and Matt Condon discuss the state of the blockchain world and how it's all connected to Urbit."
   },
   {
     title: "New Institutions in the Network Age",
     youTubeId: "Srl9tHz9OQA",
     description: "Riva Tez moderates a discussion on the state of existing institutions and the opportunities for technologies like Urbit to create and shape new ones.  Featuring Samo Burja, Aaron Wright, Dryden Brown, and Casey Caruso."
   },
+
   {
-    title: "The Elephant in the Room",
-    youTubeId: "vCu9FoNnmWg",
-    description: "Lane Rettig, Brian Crain, Jake Brukhman, and Matt Condon discuss the state of the blockchain world and how it's all connected to Urbit."
+    title: "The Medium is the Message",
+    youTubeId: "7g72HUbk_0Q",
+    description: "Sam Frank moderates a discussion on the purpose and potential of communications technologies in the current sociocultural landscape.  Featuring Alex Lee Moyer, Walter Kirn, Katherine Dee and Walter Kirn."
+  },
+
+  {
+    title: "Urbit Core Development: The Timeless Way of Building",
+    youTubeId: "RIMJ0kZM1DY",
+    description: "Urbit's core development team discusses the state of Urbit and what can be expected in the near and not-so-near future."
+  },
+
+  {
+    title: "Tlon: A New Landscape",
+    youTubeId: "3K3D9LGzvBA",
+    description: "Galen Wolfe-Pauly, CEO of Tlon Corporation, presents a brief history of computing, examines the problems with social software as it exists today, and offers a vision of the future where we own our digital tools. He's joined on stage by Marisa Rowland, Tlon's VP of Product, to demo the upcoming renovations to Landscape, an OS for Urbit."
+  },
+
+  {
+    title: "Human-friendly Software on Urbit",
+    youTubeId: "bTNAtgfRaUc",
+    description: "Reserve CEO and co-founder Nevin Freeman discusses the social and technological conditions that make software unfriendly today, and the vision that Urbit and cryptocurrencies like Reserve offer for friendlier computers, software, and networks."
+  },
+
+  {
+    title: "Opening Talk: Make Computers Personal Again",
+    youTubeId: "zDuaGi6Jbrk",
+    description: "Josh Lehman, Executive Director of the Urbit Foundation, opens Assembly 2022 with a review of the extraordinary developments of the past year and a call to make computing more personal again."
   }
+
+
 ];
 
 const articles = [
