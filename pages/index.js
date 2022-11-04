@@ -3,6 +3,12 @@ import Nav from "@components/Nav";
 
 const talks = [
   {
+    title: "Urbit and The Network State",
+    youTubeId: "nAmSj5JpHNo",
+    description: "Entrepreneur, investor, and author of The Network State, Balaji Srinivasan delivers a keynote on how decentralized protocols will shape the future of the state."
+  },
+
+  {
     title: "Holium: The Next Frontier",
     youTubeId: "Q-MtMu-Jbf4",
     description: "Holium Founder and CEO Trent Gilham shares his vision for the possibilities of Urbit and offers a preview of Holium's flagship product."
