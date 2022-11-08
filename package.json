@@ -8,6 +8,7 @@
     "export": "next export"
   },
   "dependencies": {
+    "@socialgouv/matomo-next": "^1.4.0",
     "@tlon/sigil-js": "^1.4.5",
     "classnames": "^2.3.2",
     "next": "^12.1.5",
