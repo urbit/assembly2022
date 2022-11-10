@@ -3,6 +3,11 @@ import Nav from "@components/Nav";
 
 const talks = [
   {
+    title: "Uqbar: Crypto's Execution Layer",
+    youTubeId: "0TvIqmvHqGU",
+    description: "Uqbar co-founder ~hocwyn-tipwex discusses how Uqbar is using Urbit to realize the dream of crypto."
+  },
+  {
     title: "Urbit and The Network State",
     youTubeId: "nAmSj5JpHNo",
     description: "Entrepreneur, investor, and author of The Network State, Balaji Srinivasan delivers a keynote on how decentralized protocols will shape the future of the state."
