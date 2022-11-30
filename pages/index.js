@@ -73,7 +73,7 @@ const articles = [
   },
   {
     title: "Three Things #37: October 2, 2022",
-    description: "Lane Rettig reflects on his experiernce at Assembly 2022 and the offers his view on the key takeaways.",
+    description: "Lane Rettig reflects on his experience at Assembly 2022 and the offers his view on the key takeaways.",
     image: "https://media.urbit.org/assembly/threethings.png",
     publication: "Three Things",
     url: "https://rettig.substack.com/p/three-things-37-october-2-2022"
